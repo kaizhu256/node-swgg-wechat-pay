@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "this zero-dependency package will provide a swagger-client for wechat's web-apis, with a working web-demo",
+    "description": "this zero-dependency package will provide a swagger-client for wechat-pay's web-apis, with a working web-demo",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
@@ -8,24 +8,23 @@
     "engines": {
         "node": ">=4.0"
     },
-    "homepage": "https://github.com/kaizhu256/node-swgg-wechat",
+    "homepage": "https://github.com/kaizhu256/node-swgg-wechat-pay",
     "keywords": [
-        "wechat-client",
+        "wechat-pay-client",
         "swagger-client"
     ],
     "license": "MIT",
-    "main": "lib.swgg_wechat.js",
-    "name": "swgg-wechat",
-    "nameAliasPublish": "api-wechat wechat-client",
-    "nameLib": "swgg_wechat",
-    "nameOriginal": "swgg-wechat",
+    "main": "lib.swgg_wechat_pay.js",
+    "name": "swgg-wechat-pay",
+    "nameLib": "swgg_wechat_pay",
+    "nameOriginal": "swgg-wechat-pay",
     "os": [
         "darwin",
         "linux"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/kaizhu256/node-swgg-wechat.git"
+        "url": "https://github.com/kaizhu256/node-swgg-wechat-pay.git"
     },
     "scripts": {
         "build-ci": "utility2 shReadmeTest build_ci.sh",
@@ -35,5 +34,6 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
     },
-    "version": "2017.11.20"
+    "swggTags0": "wechat-pay",
+    "version": "2017.11.21"
 }

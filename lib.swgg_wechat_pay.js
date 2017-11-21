@@ -1,4 +1,4 @@
-/* istanbul instrument in package swgg_wechat */
+/* istanbul instrument in package swgg_wechat_pay */
 /*jslint
     bitwise: true,
     browser: true,
@@ -40,10 +40,10 @@
         // init utility2_rollup
         local = local.global.utility2_rollup || local;
         // init lib
-        local.local = local.swgg_wechat = local;
+        local.local = local.swgg_wechat_pay = local;
         // init exports
         if (local.modeJs === 'browser') {
-            local.global.utility2_swgg_wechat = local;
+            local.global.utility2_swgg_wechat_pay = local;
         } else {
             // require builtins
             Object.keys(process.binding('natives')).forEach(function (key) {
