@@ -2,7 +2,7 @@
 this zero-dependency package will provide a swagger-client for wechat-pay's web-apis, with a working web-demo
 
 # live web demo
-- [https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app/](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app)
+- [https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app)
 
 [![screenshot](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployGithub.browser.%252Fnode-swgg-wechat-pay%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app)
 
@@ -60,9 +60,12 @@ this zero-dependency package will provide a swagger-client for wechat-pay's web-
 - improve notify_url
 - none
 
-#### changelog for v2017.11.21
-- npm publish 2017.11.21
-- publish sub-package wechat-pay
+#### changelog for v2018.1.18
+- npm publish v2018.1.18
+- auto-sync master swagger.json from ../swgg-$npm_package_swggAll/assets.swgg.swagger.json
+- disable heroku test-server
+- fix failed semanticRequired validation-error in ui
+- remove unused datatable link
 - none
 
 #### this package requires
@@ -322,9 +325,10 @@ instruction
     "engines": {
         "node": ">=4.0"
     },
+    "githubRepoAlias": "swgg-io/node-swgg-wechat-pay",
     "homepage": "https://github.com/kaizhu256/node-swgg-wechat-pay",
     "keywords": [
-        "wechat-pay-client",
+        "wechat-pay",
         "swagger-client"
     ],
     "license": "MIT",
@@ -349,7 +353,7 @@ instruction
         "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
     },
     "swggTags0": "wechat-pay",
-    "version": "2017.11.21"
+    "version": "2018.1.18"
 }
 ```
 

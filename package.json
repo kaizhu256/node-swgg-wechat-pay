@@ -8,9 +8,10 @@
     "engines": {
         "node": ">=4.0"
     },
+    "githubRepoAlias": "swgg-io/node-swgg-wechat-pay",
     "homepage": "https://github.com/kaizhu256/node-swgg-wechat-pay",
     "keywords": [
-        "wechat-pay-client",
+        "wechat-pay",
         "swagger-client"
     ],
     "license": "MIT",
@@ -35,5 +36,5 @@
         "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
     },
     "swggTags0": "wechat-pay",
-    "version": "2017.11.21"
+    "version": "2018.1.18"
 }
