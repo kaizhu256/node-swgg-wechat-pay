@@ -27,7 +27,6 @@
     background: #eef;
     border: 1px solid;
     color: #777;
-    overflow-wrap: break-word;
     padding: 5px;
     white-space: pre-wrap;
 }
@@ -48,7 +47,7 @@
 }
 </style>
 <h1>api documentation for
-    <a href="https://github.com/kaizhu256/node-swgg-wechat-pay">swgg-wechat-pay (2018.6.19)</a>
+    <a href="https://github.com/kaizhu256/node-swgg-wechat-pay">swgg-wechat-pay (v2018.1.18)</a>
 </h1>
 <h4>this zero-dependency package will provide a swagger-client for wechat-pay's web-apis, with a working web-demo</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
@@ -69,7 +68,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2F_7Bnotify_url_7D_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2F_7Bnotify_url_7D_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -78,7 +77,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fcloseorder_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fcloseorder_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -87,7 +86,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fdownloadbill_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fdownloadbill_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -96,7 +95,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fmicropay_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fmicropay_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -105,7 +104,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -114,7 +113,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -123,7 +122,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fqueryexchagerate_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fqueryexchagerate_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -132,7 +131,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -141,7 +140,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -150,7 +149,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -159,7 +158,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -168,7 +167,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fsettlementquery_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fsettlementquery_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -177,7 +176,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Funifiedorder_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Funifiedorder_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -186,7 +185,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpayitil_2Freport_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpayitil_2Freport_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -195,7 +194,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -204,7 +203,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -213,7 +212,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -222,7 +221,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Ftools_2Fshorturl_20POST.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Ftools_2Fshorturl_20POST.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -245,13 +244,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2F_7Bnotify_url_7D_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2F_7Bnotify_url_7D_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2F_7Bnotify_url_7D_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2F_7Bnotify_url_7D_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2F_7Bnotify_url_7D_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /{}"
+ * this function will make the api-call "POST /{}"
  * example usage:
     swgg.apiDict["operationId._2F_7Bnotify_url_7D_20POST"].ajax({
         "notify_url": "http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php",
@@ -265,7 +264,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -275,13 +274,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fcloseorder_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fcloseorder_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fcloseorder_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fcloseorder_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fcloseorder_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/closeorder"
+ * this function will make the api-call "POST /pay/closeorder"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Fcloseorder_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -299,7 +298,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -309,13 +308,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fdownloadbill_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fdownloadbill_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fdownloadbill_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fdownloadbill_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fdownloadbill_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/downloadbill"
+ * this function will make the api-call "POST /pay/downloadbill"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Fdownloadbill_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -337,7 +336,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -347,13 +346,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fmicropay_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fmicropay_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fmicropay_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fmicropay_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fmicropay_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/micropay"
+ * this function will make the api-call "POST /pay/micropay"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Fmicropay_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -381,7 +380,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -391,13 +390,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/orderquery#out_trade_no.required"
+ * this function will make the api-call "POST /pay/orderquery#out_trade_no.required"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -416,7 +415,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -426,13 +425,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/orderquery#transaction_id.required"
+ * this function will make the api-call "POST /pay/orderquery#transaction_id.required"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Forderquery_23transaction_id.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -451,7 +450,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -461,13 +460,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fqueryexchagerate_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fqueryexchagerate_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fqueryexchagerate_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fqueryexchagerate_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fqueryexchagerate_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/queryexchagerate"
+ * this function will make the api-call "POST /pay/queryexchagerate"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Fqueryexchagerate_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -484,7 +483,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -494,13 +493,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/refundquery#out_refund_no.required"
+ * this function will make the api-call "POST /pay/refundquery#out_refund_no.required"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -519,7 +518,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -529,13 +528,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/refundquery#out_trade_no.required"
+ * this function will make the api-call "POST /pay/refundquery#out_trade_no.required"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -554,7 +553,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -564,13 +563,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/refundquery#refund_id.required"
+ * this function will make the api-call "POST /pay/refundquery#refund_id.required"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Frefundquery_23refund_id.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -589,7 +588,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -599,13 +598,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/refundquery#transaction_id.required"
+ * this function will make the api-call "POST /pay/refundquery#transaction_id.required"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -624,7 +623,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -634,13 +633,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fsettlementquery_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fsettlementquery_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fsettlementquery_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fsettlementquery_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fsettlementquery_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/settlementquery"
+ * this function will make the api-call "POST /pay/settlementquery"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Fsettlementquery_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -661,7 +660,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -671,13 +670,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Funifiedorder_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Funifiedorder_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Funifiedorder_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Funifiedorder_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Funifiedorder_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /pay/unifiedorder"
+ * this function will make the api-call "POST /pay/unifiedorder"
  * example usage:
     swgg.apiDict["operationId._2Fpay_2Funifiedorder_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -711,7 +710,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -721,13 +720,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fpayitil_2Freport_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpayitil_2Freport_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpayitil_2Freport_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpayitil_2Freport_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpayitil_2Freport_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /payitil/report"
+ * this function will make the api-call "POST /payitil/report"
  * example usage:
     swgg.apiDict["operationId._2Fpayitil_2Freport_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -756,7 +755,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -766,13 +765,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /secapi/pay/refund#out_trade_no.required"
+ * this function will make the api-call "POST /secapi/pay/refund#out_trade_no.required"
  * example usage:
     swgg.apiDict["operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -795,7 +794,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -805,13 +804,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /secapi/pay/refund#transaction_id.required"
+ * this function will make the api-call "POST /secapi/pay/refund#transaction_id.required"
  * example usage:
     swgg.apiDict["operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -834,7 +833,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -844,13 +843,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /secapi/pay/reverse"
+ * this function will make the api-call "POST /secapi/pay/reverse"
  * example usage:
     swgg.apiDict["operationId._2Fsecapi_2Fpay_2Freverse_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -869,7 +868,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -879,13 +878,13 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Ftools_2Fshorturl_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Ftools_2Fshorturl_20POST.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Ftools_2Fshorturl_20POST.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Ftools_2Fshorturl_20POST.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Ftools_2Fshorturl_20POST.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call "POST /tools/shorturl"
+ * this function will make the api-call "POST /tools/shorturl"
  * example usage:
     swgg.apiDict["operationId._2Ftools_2Fshorturl_20POST"].ajax({
         "appid": "wx8888888888888888",
@@ -905,7 +904,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>

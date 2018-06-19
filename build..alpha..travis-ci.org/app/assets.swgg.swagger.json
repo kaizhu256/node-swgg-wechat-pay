@@ -1,6 +1,5 @@
 {
     "basePath": "/",
-    "description": "https://pay.weixin.qq.com/wechatpay_guide/help_docs.shtml",
     "externalDocs": {
         "description": "find out more about wechat-pay's web-apis",
         "url": "https://pay.weixin.qq.com/wechatpay_guide/help_docs.shtml"
@@ -8,8 +7,7 @@
     "info": {
         "description": "this zero-dependency package will provide a swagger-client for wechat-pay's web-apis, with a working web-demo",
         "title": "swgg-wechat-pay",
-        "version": "2018.6.19",
-        "x-swgg-description": "this zero-dependency package will provide a swagger-client for wechat-pay's web-apis, with a working web-demo",
+        "version": "2018.1.18",
         "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app/assets.app.js",
         "x-swgg-homepage": "https://github.com/kaizhu256/node-swgg-wechat-pay"
     },
@@ -1315,11 +1313,9 @@
             "x-swgg-tags0": "wechat-pay"
         }
     ],
-    "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app/assets.app.js",
     "x-swgg-operationIdFromPath": true,
     "x-swgg-tags0-override": {
         "wechat-pay": {
-            "description": "https://pay.weixin.qq.com/wechatpay_guide/help_docs.shtml",
             "externalDocs": {
                 "description": "find out more about wechat-pay's web-apis",
                 "url": "https://pay.weixin.qq.com/wechatpay_guide/help_docs.shtml"
