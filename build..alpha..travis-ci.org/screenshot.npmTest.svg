@@ -1,9 +1,9 @@
-<svg height="2846" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="2846" fill="#555" width="720"></rect>
+<svg height="2718" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2718" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-19T20:41:45.273Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-19T20:48:32.768Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
 <tspan x="10" y="58">swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -20,7 +20,7 @@
 
 <tspan x="10" y="186">override assets /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="202">&gt; server listening on http-port 57311</tspan>
+<tspan x="10" y="202">&gt; server listening on http-port 50184</tspan>
 
 <tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/package.json</tspan>
 
@@ -69,14 +69,14 @@
 <tspan x="10" y="586"></tspan>
 
 <tspan x="10" y="602">browserTest - created electron entry-page /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/\</tspan>
-<tspan x="10" y="618">electron.16419c82b650.e30c83aa93a9d.html</tspan>
+<tspan x="10" y="618">electron.16419ce63590.1a6ecc49a2cbc.html</tspan>
 
 <tspan x="10" y="634"></tspan>
 
-<tspan x="10" y="650">(node:10938) DeprecationWarning: _linklist module is deprecated. Please use a userland alternati\</tspan>
+<tspan x="10" y="650">(node:14143) DeprecationWarning: _linklist module is deprecated. Please use a userland alternati\</tspan>
 <tspan x="10" y="666">ve.</tspan>
 
-<tspan x="10" y="682">(node:10938) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="682">(node:14143) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
 <tspan x="10" y="698">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
@@ -156,46 +156,46 @@
 
 <tspan x="10" y="1370">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="1386">[11005:0619/204146.936988:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="1386">[14210:0619/204834.269063:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
 <tspan x="10" y="1402">cted</tspan>
 
-<tspan x="10" y="1418">[11005:0619/204146.937054:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="1418">[14210:0619/204834.269112:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
 <tspan x="10" y="1434">cted</tspan>
 
-<tspan x="10" y="1450">[11036:0619/204147.038880:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
+<tspan x="10" y="1450">[14240:0619/204834.337001:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
 <tspan x="10" y="1466">threads in process gpu-process. </tspan>
 
-<tspan x="10" y="1482">[11005:0619/204147.108840:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1482">[14210:0619/204834.411536:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
 <tspan x="10" y="1498">el.</tspan>
 
-<tspan x="10" y="1514">[11005:0619/204147.109879:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1514">[14210:0619/204834.411924:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
 <tspan x="10" y="1530">el.</tspan>
 
-<tspan x="10" y="1546">[11005:0619/204147.111213:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1546">[14210:0619/204834.413533:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
 <tspan x="10" y="1562">el.</tspan>
 
-<tspan x="10" y="1578">[11005:0619/204147.112142:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1578">[14210:0619/204834.414082:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
 <tspan x="10" y="1594">el.</tspan>
 
-<tspan x="10" y="1610">[11005:0619/204147.112876:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1610">[14210:0619/204834.414196:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
 <tspan x="10" y="1626">el.</tspan>
 
-<tspan x="10" y="1642"></tspan>
+<tspan x="10" y="1642">&gt; </tspan>
 
-<tspan x="10" y="1658">browserTest - opened http://127.0.0.1:57311/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1658">browserTest - opened http://127.0.0.1:50184/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
 <tspan x="10" y="1674"></tspan>
 
-<tspan x="10" y="1690">&gt; server listening on http-port 39248</tspan>
+<tspan x="10" y="1690">server listening on http-port 57943</tspan>
 
-<tspan x="10" y="1706">[11005:0619/204147.871321:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:57311/asse\</tspan>
+<tspan x="10" y="1706">[14210:0619/204835.115182:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:50184/asse\</tspan>
 <tspan x="10" y="1722">ts.swgg.swagger.json</tspan>
 
 <tspan x="10" y="1738">    "..."</tspan>
 
-<tspan x="10" y="1754">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:57311/assets.swgg.swagger.json", so\</tspan>
-<tspan x="10" y="1770">urce: file:///home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/electron.16419c82b650.e30c83a\</tspan>
-<tspan x="10" y="1786">a93a9d.html (266)</tspan>
+<tspan x="10" y="1754">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:50184/assets.swgg.swagger.json", so\</tspan>
+<tspan x="10" y="1770">urce: file:///home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/electron.16419ce63590.1a6ecc4\</tspan>
+<tspan x="10" y="1786">9a2cbc.html (266)</tspan>
 
 <tspan x="10" y="1802">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
@@ -211,7 +211,7 @@
 
 <tspan x="10" y="1914"></tspan>
 
-<tspan x="10" y="1930">browserTest - exit-code 0 - http://127.0.0.1:57311/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1930">browserTest - exit-code 0 - http://127.0.0.1:50184/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
 <tspan x="10" y="1946"></tspan>
 
@@ -265,56 +265,42 @@
 
 <tspan x="10" y="2378">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2394">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T20:31:38.581Z</tspan>
+<tspan x="10" y="2394">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T20:48:33.104Z</tspan>
 
-<tspan x="10" y="2410">|  624565 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2410">|   17536 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2426">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2442">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
-<tspan x="10" y="2458">ebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-19\</tspan>
-<tspan x="10" y="2474">T20:31:20.782Z</tspan>
+<tspan x="10" y="2442">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
+<tspan x="10" y="2458">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
+<tspan x="10" y="2474">018-06-19T20:47:27.660Z</tspan>
 
-<tspan x="10" y="2490">|      15 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2490">|      12 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2506">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2522">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T20:31:18.362Z</tspan>
+<tspan x="10" y="2522">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T20:47:25.174Z</tspan>
 
-<tspan x="10" y="2538">|   16722 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2538">|   16774 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2554">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2570">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
-<tspan x="10" y="2586">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
-<tspan x="10" y="2602">018-06-19T20:30:11.571Z</tspan>
+<tspan x="10" y="2570"></tspan>
 
-<tspan x="10" y="2618">|      11 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2586">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
+<tspan x="10" y="2602">.html</tspan>
 
-<tspan x="10" y="2634">-------------------------------------------------------</tspan>
+<tspan x="10" y="2618"></tspan>
 
-<tspan x="10" y="2650">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T20:30:08.882Z</tspan>
+<tspan x="10" y="2634"></tspan>
 
-<tspan x="10" y="2666">|   17018 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2650">npmTest - 0 failed tests</tspan>
 
-<tspan x="10" y="2682">-------------------------------------------------------</tspan>
+<tspan x="10" y="2666"></tspan>
 
-<tspan x="10" y="2698"></tspan>
+<tspan x="10" y="2682"></tspan>
 
-<tspan x="10" y="2714">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
-<tspan x="10" y="2730">.html</tspan>
-
-<tspan x="10" y="2746"></tspan>
-
-<tspan x="10" y="2762"></tspan>
-
-<tspan x="10" y="2778">npmTest - 0 failed tests</tspan>
-
-<tspan x="10" y="2794"></tspan>
-
-<tspan x="10" y="2810"></tspan>
-
-<tspan x="10" y="2826">[MODE_BUILD=npmTest] - 2018-06-19T20:42:05.017Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2698">[MODE_BUILD=npmTest] - 2018-06-19T20:48:52.313Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-06-19T20:30:08.586Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-06-19T20:47:24.848Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
 <tspan x="10" y="58">e_modules/swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 36759</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 34182</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/package.json</tspan>
 
@@ -55,85 +55,85 @@
 
 <tspan x="10" y="474">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="490">&gt; </tspan>
+<tspan x="10" y="490"></tspan>
 
 <tspan x="10" y="506">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp\</tspan>
-<tspan x="10" y="522">/electron.16419bd8eba0.f0cba4dac14c7.html</tspan>
+<tspan x="10" y="522">/electron.16419cd5dc70.c8804a826df89.html</tspan>
 
 <tspan x="10" y="538"></tspan>
 
-<tspan x="10" y="554">server listening on http-port 61645</tspan>
+<tspan x="10" y="554">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="570">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="570">[13621:0619/204726.841035:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="586">cted</tspan>
 
-<tspan x="10" y="586">[4530:0619/203010.866621:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="602">ted</tspan>
+<tspan x="10" y="602">[13621:0619/204726.850725:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="618">cted</tspan>
 
-<tspan x="10" y="618">[4530:0619/203010.866687:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="634">ted</tspan>
+<tspan x="10" y="634">[13653:0619/204726.960625:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
+<tspan x="10" y="650">threads in process gpu-process. </tspan>
 
-<tspan x="10" y="650">[4567:0619/203010.903742:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
-<tspan x="10" y="666">hreads in process gpu-process. </tspan>
+<tspan x="10" y="666">[13621:0619/204727.041519:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="682">el.</tspan>
 
-<tspan x="10" y="682">[4530:0619/203010.996677:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="698">l.</tspan>
+<tspan x="10" y="698">[13621:0619/204727.041901:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="714">el.</tspan>
 
-<tspan x="10" y="714">[4530:0619/203010.997140:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="730">l.</tspan>
+<tspan x="10" y="730">[13621:0619/204727.042178:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="746">el.</tspan>
 
-<tspan x="10" y="746">[4530:0619/203010.997551:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="762">l.</tspan>
+<tspan x="10" y="762">[13621:0619/204727.045670:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="778">el.</tspan>
 
-<tspan x="10" y="778">[4530:0619/203010.998211:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="794">l.</tspan>
+<tspan x="10" y="794">[13621:0619/204727.045812:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="810">el.</tspan>
 
-<tspan x="10" y="810">[4530:0619/203010.998347:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="826">l.</tspan>
+<tspan x="10" y="826">&gt; server listening on http-port 65457</tspan>
 
 <tspan x="10" y="842"></tspan>
 
-<tspan x="10" y="858">browserTest - opened http://127.0.0.1:36759/index.default.html?modeTest=1</tspan>
+<tspan x="10" y="858">browserTest - opened http://127.0.0.1:34182/index.default.html?modeTest=1</tspan>
 
 <tspan x="10" y="874"></tspan>
 
-<tspan x="10" y="890">[4530:0619/203011.606963:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.sw\</tspan>
-<tspan x="10" y="906">gg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/el\</tspan>
-<tspan x="10" y="922">ectron.16419bd8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="890">[13621:0619/204727.696094:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.s\</tspan>
+<tspan x="10" y="906">wgg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/e\</tspan>
+<tspan x="10" y="922">lectron.16419cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="938">[4530:0619/203011.626399:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildAp\</tspan>
-<tspan x="10" y="954">idoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16\</tspan>
-<tspan x="10" y="970">419bd8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="938">[13621:0619/204727.717158:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildA\</tspan>
+<tspan x="10" y="954">pidoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1\</tspan>
+<tspan x="10" y="970">6419cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="986">[4530:0619/203011.635093:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildAp\</tspan>
-<tspan x="10" y="1002">p_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419\</tspan>
-<tspan x="10" y="1018">bd8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="986">[13621:0619/204727.718984:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildA\</tspan>
+<tspan x="10" y="1002">pp_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1641\</tspan>
+<tspan x="10" y="1018">9cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1034">[4530:0619/203011.635121:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildCu\</tspan>
-<tspan x="10" y="1050">stomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron\</tspan>
-<tspan x="10" y="1066">.16419bd8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1034">[13621:0619/204727.719017:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildC\</tspan>
+<tspan x="10" y="1050">ustomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electro\</tspan>
+<tspan x="10" y="1066">n.16419cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1082">[4530:0619/203011.635144:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildLi\</tspan>
-<tspan x="10" y="1098">b_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419\</tspan>
-<tspan x="10" y="1114">bd8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1082">[13621:0619/204727.720581:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildL\</tspan>
+<tspan x="10" y="1098">ib_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1641\</tspan>
+<tspan x="10" y="1114">9cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1130">[4530:0619/203011.635157:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildRe\</tspan>
-<tspan x="10" y="1146">adme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16\</tspan>
-<tspan x="10" y="1162">419bd8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1130">[13621:0619/204727.720615:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildR\</tspan>
+<tspan x="10" y="1146">eadme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1\</tspan>
+<tspan x="10" y="1162">6419cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1178">[4530:0619/203011.635176:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildTe\</tspan>
-<tspan x="10" y="1194">st_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1641\</tspan>
-<tspan x="10" y="1210">9bd8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1178">[13621:0619/204727.721669:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildT\</tspan>
+<tspan x="10" y="1194">est_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.164\</tspan>
+<tspan x="10" y="1210">19cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1226">[4530:0619/203011.635189:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_def\</tspan>
-<tspan x="10" y="1242">ault", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419bd8eb\</tspan>
-<tspan x="10" y="1258">a0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1226">[13621:0619/204727.722157:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_de\</tspan>
+<tspan x="10" y="1242">fault", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419cd5d\</tspan>
+<tspan x="10" y="1258">c70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1274">[4530:0619/203011.637476:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpage\</tspan>
-<tspan x="10" y="1290">_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419b\</tspan>
-<tspan x="10" y="1306">d8eba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1274">[13621:0619/204727.723294:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpag\</tspan>
+<tspan x="10" y="1290">e_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419\</tspan>
+<tspan x="10" y="1306">cd5dc70.c8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1322">[4530:0619/203012.634942:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|-----\</tspan>
-<tspan x="10" y="1338">------|</tspan>
+<tspan x="10" y="1322">[13621:0619/204728.734727:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|----\</tspan>
+<tspan x="10" y="1338">-------|</tspan>
 
 <tspan x="10" y="1354">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 
@@ -145,12 +145,12 @@
 
 <tspan x="10" y="1418">----------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1434">", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419bd8eba0.f\</tspan>
-<tspan x="10" y="1450">0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1434">", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419cd5dc70.c\</tspan>
+<tspan x="10" y="1450">8804a826df89.html (71)</tspan>
 
-<tspan x="10" y="1466">[4530:0619/203012.640142:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/index\</tspan>
-<tspan x="10" y="1482">.html", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419bd8e\</tspan>
-<tspan x="10" y="1498">ba0.f0cba4dac14c7.html (71)</tspan>
+<tspan x="10" y="1466">[13621:0619/204728.738792:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/inde\</tspan>
+<tspan x="10" y="1482">x.html", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419cd5\</tspan>
+<tspan x="10" y="1498">dc70.c8804a826df89.html (71)</tspan>
 
 <tspan x="10" y="1514">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
@@ -211,15 +211,15 @@
 
 <tspan x="10" y="2010">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
 <tspan x="10" y="2026">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
-<tspan x="10" y="2042">018-06-19T20:30:11.571Z</tspan>
+<tspan x="10" y="2042">018-06-19T20:47:27.660Z</tspan>
 
-<tspan x="10" y="2058">|      11 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2058">|      12 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2074">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2090">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T20:30:08.882Z</tspan>
+<tspan x="10" y="2090">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T20:47:25.174Z</tspan>
 
-<tspan x="10" y="2106">|   17018 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2106">|   16774 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2122">-------------------------------------------------------</tspan>
 
@@ -238,7 +238,7 @@
 
 <tspan x="10" y="2250"></tspan>
 
-<tspan x="10" y="2266">[MODE_BUILD=npmTestPublished] - 2018-06-19T20:30:27.827Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2266">[MODE_BUILD=npmTestPublished] - 2018-06-19T20:47:43.875Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
