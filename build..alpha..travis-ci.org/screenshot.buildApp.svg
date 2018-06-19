@@ -1,9 +1,9 @@
-<svg height="1902" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1902" fill="#555" width="720"></rect>
+<svg height="1822" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1822" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T20:42:29.325Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T20:49:16.911Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -89,7 +89,7 @@
 
 <tspan x="10" y="794">  statusCode: 400 }</tspan>
 
-<tspan x="10" y="810">&gt; server listening on http-port 62879</tspan>
+<tspan x="10" y="810">&gt; server listening on http-port 45754</tspan>
 
 <tspan x="10" y="826">{ Error: error.semanticPaths6 - Declared path parameter "notify_url" needs to be defined as a pa\</tspan>
 <tspan x="10" y="842">th parameter /{notify_url}["post"]["parameters"]["ii"] at either the path or operation level</tspan>
@@ -150,7 +150,7 @@
 
 <tspan x="10" y="1322">  statusCode: 400 }</tspan>
 
-<tspan x="10" y="1338">&gt; server listening on http-port 46021</tspan>
+<tspan x="10" y="1338">&gt; server listening on http-port 53011</tspan>
 
 <tspan x="10" y="1354">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
@@ -163,56 +163,48 @@
 
 <tspan x="10" y="1434">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1450">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T20:31:38.581Z</tspan>
+<tspan x="10" y="1450">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T20:48:53.986Z</tspan>
 
-<tspan x="10" y="1466">|  656664 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1466">|   29200 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="1482">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1498">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
-<tspan x="10" y="1514">ebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-19\</tspan>
-<tspan x="10" y="1530">T20:31:20.782Z</tspan>
+<tspan x="10" y="1498">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T20:48:33.104Z</tspan>
 
-<tspan x="10" y="1546">|      15 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1514">|   17536 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="1562">-------------------------------------------------------</tspan>
+<tspan x="10" y="1530">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1578">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T20:31:18.362Z</tspan>
+<tspan x="10" y="1546">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
+<tspan x="10" y="1562">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
+<tspan x="10" y="1578">018-06-19T20:47:27.660Z</tspan>
 
-<tspan x="10" y="1594">|   16722 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1594">|      12 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="1610">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1626">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
-<tspan x="10" y="1642">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
-<tspan x="10" y="1658">018-06-19T20:30:11.571Z</tspan>
+<tspan x="10" y="1626">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T20:47:25.174Z</tspan>
 
-<tspan x="10" y="1674">|      11 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1642">|   16774 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="1690">-------------------------------------------------------</tspan>
+<tspan x="10" y="1658">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1706">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T20:30:08.882Z</tspan>
+<tspan x="10" y="1674"></tspan>
 
-<tspan x="10" y="1722">|   17018 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1690">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
+<tspan x="10" y="1706">.html</tspan>
 
-<tspan x="10" y="1738">-------------------------------------------------------</tspan>
+<tspan x="10" y="1722"></tspan>
 
-<tspan x="10" y="1754"></tspan>
+<tspan x="10" y="1738"></tspan>
 
-<tspan x="10" y="1770">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
-<tspan x="10" y="1786">.html</tspan>
+<tspan x="10" y="1754">buildApp - 0 failed tests</tspan>
 
-<tspan x="10" y="1802"></tspan>
+<tspan x="10" y="1770"></tspan>
 
-<tspan x="10" y="1818"></tspan>
+<tspan x="10" y="1786"></tspan>
 
-<tspan x="10" y="1834">buildApp - 0 failed tests</tspan>
-
-<tspan x="10" y="1850"></tspan>
-
-<tspan x="10" y="1866"></tspan>
-
-<tspan x="10" y="1882">[MODE_BUILD=buildApp] - 2018-06-19T20:42:37.114Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1802">[MODE_BUILD=buildApp] - 2018-06-19T20:49:24.775Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
