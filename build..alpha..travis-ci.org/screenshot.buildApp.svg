@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T21:03:20.874Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T21:01:47.013Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -94,7 +94,7 @@
 
 <tspan x="10" y="826">  statusCode: 400 }</tspan>
 
-<tspan x="10" y="842">&gt; server listening on http-port 64088</tspan>
+<tspan x="10" y="842">&gt; server listening on http-port 36744</tspan>
 
 <tspan x="10" y="858">{ Error: error.semanticPaths6 - Declared path parameter "notify_url" needs to be defined as a pa\</tspan>
 <tspan x="10" y="874">th parameter /{notify_url}["post"]["parameters"]["ii"] at either the path or operation level</tspan>
@@ -159,7 +159,7 @@
 
 <tspan x="10" y="1386">  statusCode: 400 }</tspan>
 
-<tspan x="10" y="1402">&gt; server listening on http-port 44947</tspan>
+<tspan x="10" y="1402">&gt; server listening on http-port 40605</tspan>
 
 <tspan x="10" y="1418">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
@@ -172,21 +172,21 @@
 
 <tspan x="10" y="1498">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1514">| test-report - buildApidoc - node - linux v10.4.1 - 2018-06-19T21:02:56.564Z</tspan>
+<tspan x="10" y="1514">| test-report - buildApidoc - node - linux v10.4.1 - 2018-06-19T21:01:22.342Z</tspan>
 
-<tspan x="10" y="1530">|   30302 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1530">|   30637 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="1546">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1562">| test-report - npmTest - node - linux v10.4.1 - 2018-06-19T21:02:35.811Z</tspan>
+<tspan x="10" y="1562">| test-report - npmTest - node - linux v10.4.1 - 2018-06-19T21:01:01.705Z</tspan>
 
-<tspan x="10" y="1578">|   17900 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1578">|   17780 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="1594">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1610">| test-report - npmTestPublished - node - linux v10.4.1 - 2018-06-19T21:01:26.892Z</tspan>
+<tspan x="10" y="1610">| test-report - npmTestPublished - node - linux v10.4.1 - 2018-06-19T20:59:51.289Z</tspan>
 
-<tspan x="10" y="1626">|   18155 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1626">|   18375 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="1642">-------------------------------------------------------</tspan>
 
@@ -205,7 +205,7 @@
 
 <tspan x="10" y="1770"></tspan>
 
-<tspan x="10" y="1786">[MODE_BUILD=buildApp] - 2018-06-19T21:03:28.387Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1786">[MODE_BUILD=buildApp] - 2018-06-19T21:01:54.426Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
