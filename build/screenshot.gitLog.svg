@@ -1,0 +1,33 @@
+<svg height="478" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="478" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">2018-01-19 14:16:50 +0700</tspan>
+<tspan x="10" y="42">[npm publish] - npm publish v2018.1.18</tspan>
+<tspan x="10" y="58">- auto-sync master swagger.json from ../swgg-/assets.swgg.swagger.json</tspan>
+<tspan x="10" y="74">- disable heroku test-server</tspan>
+<tspan x="10" y="90">- fix failed semanticRequired validation-error in ui</tspan>
+<tspan x="10" y="106">- remove unused datatable link</tspan>
+<tspan x="10" y="122"></tspan>
+<tspan x="10" y="138">2017-11-21 14:49:19 +0800</tspan>
+<tspan x="10" y="154">[npm publish] - npm publish 2017.11.21</tspan>
+<tspan x="10" y="170">- publish sub-package wechat-pay</tspan>
+<tspan x="10" y="186"></tspan>
+<tspan x="10" y="202">2017-11-21 12:37:57 +0800</tspan>
+<tspan x="10" y="218">[npm publish] - npm publish 2017.11.20</tspan>
+<tspan x="10" y="234">- add api POST /pay/closeorder</tspan>
+<tspan x="10" y="250">- add api POST /pay/downloadbill</tspan>
+<tspan x="10" y="266">- add api POST /pay/micropay</tspan>
+<tspan x="10" y="282">- add api POST /pay/queryexchagerate</tspan>
+<tspan x="10" y="298">- add api POST /pay/refundquery</tspan>
+<tspan x="10" y="314">- add api POST /pay/settlementquery</tspan>
+<tspan x="10" y="330">- add api POST /pay/unifiedorder</tspan>
+<tspan x="10" y="346">- add api POST /payitil/report</tspan>
+<tspan x="10" y="362">- add api POST /secapi/pay/refund</tspan>
+<tspan x="10" y="378">- add api POST /secapi/pay/reverse</tspan>
+<tspan x="10" y="394">- add api POST /tools/shorturl</tspan>
+<tspan x="10" y="410">- add api POST /{notify_url}</tspan>
+<tspan x="10" y="426"></tspan>
+<tspan x="10" y="442">2014-03-26 02:31:50 +0700</tspan>
+<tspan x="10" y="458">add blank README.md</tspan>
+</text>
+</svg>
