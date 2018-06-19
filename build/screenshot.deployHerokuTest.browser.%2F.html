@@ -1,13 +1,4 @@
-<html lang="en" data-scrape="{
-    &quot;hrefDict&quot;: {
-        &quot;https://github.com/kaizhu256/node-swgg&quot;: &quot;swgg&quot;,
-        &quot;https://github.com/kaizhu256/node-swgg-wechat-pay&quot;: &quot;swgg-wechat-pay (2018.1.18)&quot;,
-        &quot;https://pay.weixin.qq.com/wechatpay_guide/help_docs.shtml&quot;: &quot;https://pay.weixin.qq.com/wechatpay_guide/help_docs.shtml&quot;
-    },
-    &quot;href&quot;: &quot;https://h1-swgg-wechat-pay-master.herokuapp.com/?modeTest=1&amp;timeExit=1516432949308#!swgg_id__2Fpay_2Fcloseorder_20POST_1&quot;,
-    &quot;url&quot;: &quot;https://h1-swgg-wechat-pay-master.herokuapp.com/&quot;,
-    &quot;bodyTextContent&quot;: &quot;javascript code\n/*\n * initialize swgg-client\n * 1. download currently-loaded apis to file swagger.json:\n *     $ curl -L \&quot;https://h1-swgg-wechat-pay-master.herokuapp.com/assets.swgg.swagger.json\&quot; > swagger.json\n * 2. npm install swgg\n *     $ npm install swgg\n * 3. run code below to initialize swgg-client\n * 4. (optional) edit file swagger.json to suit your needs\n */\nvar swgg;\nswgg = require(\&quot;swgg\&quot;);\nswgg.apiUpdate(require(\&quot;./swagger.json\&quot;));\nconsole.log(\&quot;printing currently loaded apis ...\&quot;);\nconsole.log(JSON.stringify(Object.keys(swgg.apiDict).sort(), null, 4));\nconsole.log(\&quot;initialized swgg-client\&quot;);\n\n                This API needs to be called before a vendor wants to create a new order due to the Payer failing to pay for an order. The original order will be closed in order to avoid repeat payment. After an order is created in the WeChat payment system, if the Payer doesn't pay within the required time, no further operation can be performed in the system. To prevent the Payer from proceeding with their order, this API is called to close the order.\n\n    description\n    Close Order.This API needs to be called before a vendor wants to create a new order due to the Payer failing to pay for an order. The original order will be closed in order to avoid repeat payment. After an order is created in the WeChat payment system, if the Payer doesn't pay within the required time, no further operation can be performed in the system. To prevent the Payer from proceeding with their order, this API is called to close the order.\n\n                                                                                            try it out!\n    javascript code\n    /*\n * reproduce api-call \&quot;POST /pay/closeorder\&quot;\n * 1. initialize swgg-client from previous step\n * 2. run code below to reproduce api-call\n */\nswgg.apiDict[\&quot;POST /pay/closeorder\&quot;].ajax({\n    \&quot;paramDict\&quot;: {\n        \&quot;appid\&quot;: \&quot;wx8888888888888888\&quot;,\n        \&quot;mch_id\&quot;: \&quot;1900000109\&quot;,\n        \&quot;sub_mch_id\&quot;: \&quot;1900000109\&quot;,\n        \&quot;out_trade_no\&quot;: \&quot;1217752501201407033233368018\&quot;,\n        \&quot;nonce_str\&quot;: \&quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS\&quot;,\n        \&quot;sign\&quot;: \&quot;C380BEC2BFD727A4B6845133519F3AD6\&quot;\n    }\n}, function (error, data) {\n    if (error) {\n        console.error(error);\n        return;\n    }\n    console.log(data.responseJson || data.responseText);\n});\n\n    curl request\n    curl \\\n--request POST \\\n--header 'Content-Type: application/xml' \\\n--data-binary '<?xml version=\&quot;1.0\&quot;?>\n<appid><![CDATA[wx8888888888888888]]></appid>\n<mch_id><![CDATA[1900000109]]></mch_id>\n<sub_mch_id><![CDATA[1900000109]]></sub_mch_id>\n<out_trade_no><![CDATA[1217752501201407033233368018]]></out_trade_no>\n<nonce_str><![CDATA[5K8264ILTKCH16CQ2502SI8ZNMTM67VS]]></nonce_str>\n<sign><![CDATA[C380BEC2BFD727A4B6845133519F3AD6]]></sign>' \\\n\&quot;https://api.mch.weixin.qq.com/pay/closeorder\&quot;\n    response status code\n\n            This API is used to help the Vendors download their transaction record history including missing orders, and can be used to find unmatched data between vendors and WeChat caused by system error. By downloading transaction history and doing Reconciliation, the Vendor can correct the status of their orders in a timely fashion.\n\n    description\n    Download Transaction History.This API is used to help the Vendors download their transaction record history including missing orders, and can be used to find unmatched data between vendors and WeChat caused by system error. By downloading transaction history and doing Reconciliation, the Vendor can correct the status of their orders in a timely fashion.\n\n                                                                                                                                                                                                                                                                                                                                {\n    \&quot;goods_detail\&quot;: [\n        {\n            \&quot;goods_id\&quot;: \&quot;iphone6s_1 6G\&quot;,\n            \&quot;wxpay_goods_id\&quot;: \&quot;100 1\&quot;,\n            \&quot;goods_name\&quot;: \&quot;iPhone 6s 16G\&quot;,\n            \&quot;goods_num\&quot;: 1,\n            \&quot;price\&quot;: 528800,\n            \&quot;goods_category\&quot;: \&quot;1234 56\&quot;,\n            \&quot;body\&quot;: \&quot;苹果手机\&quot;\n        },\n        {\n            \&quot;goods_id\&quot;: \&quot;iphone6s_3 2G\&quot;,\n            \&quot;wxpay_goods_id\&quot;: \&quot;100 2\&quot;,\n            \&quot;goods_name\&quot;: \&quot;iPhone 6s 32G\&quot;,\n            \&quot;quantity\&quot;: 1,\n            \&quot;price\&quot;: 608800,\n            \&quot;goods_category\&quot;: \&quot;1237 89\&quot;,\n            \&quot;body\&quot;: \&quot;苹果手机\&quot;\n        }\n    ]\n}\n\n                                                                                                    This API allows inquiry of all payment orders made from WeChat. After receiving a status code using this API, vendors can proceed with the next step in service logic. The following are situations when to use the Query Order API: 1. The Vendor doesn’t receive any payment due to an exception in the Vendor's backend, network or server; 2. A system error or unknown transaction status is returned after calling the payment interface; 3. USERPAYING status is returned after calling the Quick Pay API; 4. To confirm payment status before calling the Close Order API or Revoke Order API;\n\n    description\n    Query Order.This API allows inquiry of all payment orders made from WeChat. After receiving a status code using this API, vendors can proceed with the next step in service logic. The following are situations when to use the Query Order API: 1. The Vendor doesn’t receive any payment due to an exception in the Vendor's backend, network or server; 2. A system error or unknown transaction status is returned after calling the payment interface; 3. USERPAYING status is returned after calling the Quick Pay API; 4. To confirm payment status before calling the Close Order API or Revoke Order API;\n\n                                                                                                                                                This API allows inquiry of all payment orders made from WeChat. After receiving a status code using this API, vendors can proceed with the next step in service logic. The following are situations when to use the Query Order API: 1. The Vendor doesn’t receive any payment due to an exception in the Vendor's backend, network or server; 2. A system error or unknown transaction status is returned after calling the payment interface; 3. USERPAYING status is returned after calling the Quick Pay API; 4. To confirm payment status before calling the Close Order API or Revoke Order API;\n\n    description\n    Query Order.This API allows inquiry of all payment orders made from WeChat. After receiving a status code using this API, vendors can proceed with the next step in service logic. The following are situations when to use the Query Order API: 1. The Vendor doesn’t receive any payment due to an exception in the Vendor's backend, network or server; 2. A system error or unknown transaction status is returned after calling the payment interface; 3. USERPAYING status is returned after calling the Quick Pay API; 4. To confirm payment status before calling the Close Order API or Revoke Order API;\n\n                                                                                                                                                                                                                                                                                                                                                                                                                    description\n    Query Refund.After submitting Submit Refund, this API can be called to check the refund status. After submitting a refund, there may be a delay in processing the refund: 20 minutes for refunding to Balance and 3 working days for refunding to a bank card.\n\n                                                                                                                                                    description\n    Query Refund.After submitting Submit Refund, this API can be called to check the refund status. After submitting a refund, there may be a delay in processing the refund: 20 minutes for refunding to Balance and 3 working days for refunding to a bank card.\n\n                                                                                                                                                    description\n    Query Refund.After submitting Submit Refund, this API can be called to check the refund status. After submitting a refund, there may be a delay in processing the refund: 20 minutes for refunding to Balance and 3 working days for refunding to a bank card.\n\n                                                                                                                                                                                                                                                                                                            For scenarios other than the Quick Pay method, the Vendor’s backend calls this API to create an advance transaction in the WeChat payment service backend, and initiates the payment process via payment by QR Code. JSAPI, App and other payment methods after the order is submitted successfully.\n\n    description\n    Unified Order.For scenarios other than the Quick Pay method, the Vendor’s backend calls this API to create an advance transaction in the WeChat payment service backend, and initiates the payment process via payment by QR Code. JSAPI, App and other payment methods after the order is submitted successfully.\n\n                                                                                                                            {\n    \&quot;goods_detail\&quot;: [\n        {\n            \&quot;goods_id\&quot;: \&quot;iphone6s_1 6G\&quot;,\n            \&quot;wxpay_goods_id\&quot;: \&quot;100 1\&quot;,\n            \&quot;goods_name\&quot;: \&quot;iPhone 6s 16G\&quot;,\n            \&quot;goods_num\&quot;: 1,\n            \&quot;price\&quot;: 528800,\n            \&quot;goods_category\&quot;: \&quot;1234 56\&quot;,\n            \&quot;body\&quot;: \&quot;苹果手机\&quot;\n        },\n        {\n            \&quot;goods_id\&quot;: \&quot;iphone6s_3 2G\&quot;,\n            \&quot;wxpay_goods_id\&quot;: \&quot;100 2\&quot;,\n            \&quot;goods_name\&quot;: \&quot;iPhone 6s 32G\&quot;,\n            \&quot;quantity\&quot;: 1,\n            \&quot;price\&quot;: 608800,\n            \&quot;goods_category\&quot;: \&quot;1237 89\&quot;,\n            \&quot;body\&quot;: \&quot;苹果手机\&quot;\n        }\n    ]\n}\n\n                                                                                                                                                                            This API is used to assist the Vendors in improving overall service quality when they call the WeChat payment APIs. With this API, vendors obtain relevant returned data and response duration. Based on the Vendor's uplink network speed, the WeChat payment system optimizes its networking deployment, so as to continuously improve service reliability and speed.\n\n    description\n    Report Speed Testing.This API is used to assist the Vendors in improving overall service quality when they call the WeChat payment APIs. With this API, vendors obtain relevant returned data and response duration. Based on the Vendor's uplink network speed, the WeChat payment system optimizes its networking deployment, so as to continuously improve service reliability and speed.\n\n                                                                                                            Interface URL. Complete interface URL to be reported is similar to the following:https://api.mch.weixin.qq.com/pay/unifiedorderWhen Quick Pay is used, in order to analyze the overall duration of a single service with vendors, WeChat requires a report for each Quick Pay service call made in either mode 1 or mode 2. The report URL is as below:https://api.mch.weixin.qq.com/pay/micropay/totalFor other payment methods, calling and reporting is only required once.\n\n                                                                                                                                                    For a period after a payment transaction has been completed and a refund is required by either the Payer or Vendor, the Vendor can refund the Payer via this API. After the WeChat payment system receives and verifies the refund request successfully, the Payer will be refunded with the request refund amount (less than or equal to the original payment amount) according to the refund rules.\n\n    description\n    Submit Refund.For a period after a payment transaction has been completed and a refund is required by either the Payer or Vendor, the Vendor can refund the Payer via this API. After the WeChat payment system receives and verifies the refund request successfully, the Payer will be refunded with the request refund amount (less than or equal to the original payment amount) according to the refund rules.\n\n                                                                                                                                                                                For a period after a payment transaction has been completed and a refund is required by either the Payer or Vendor, the Vendor can refund the Payer via this API. After the WeChat payment system receives and verifies the refund request successfully, the Payer will be refunded with the request refund amount (less than or equal to the original payment amount) according to the refund rules.\n\n    description\n    Submit Refund.For a period after a payment transaction has been completed and a refund is required by either the Payer or Vendor, the Vendor can refund the Payer via this API. After the WeChat payment system receives and verifies the refund request successfully, the Payer will be refunded with the request refund amount (less than or equal to the original payment amount) according to the refund rules.\n\n                                                                                                                                                                                    description\n    Revoke Order.When a payment transaction isn't successfully returned or the payment system times out, this API is called to cancel the transaction. After revoking, the successful order will be refunded, while the failed order will be closed.\n\n                                                                                                                                                                                                                                                                                description\n    General Payment Result Notification.After completing a payment, the WeChat payment system will send the relevant payment result and user information to the Vendor. When this happens, the Vendor’s backend will need to receive the result and return a reply to the WeChat payment system.&quot;
-}"><head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- "" -->
@@ -423,11 +414,55 @@ button {
 <body>
 <div id="ajaxProgressDiv1" style="background: transparent; height: 2px; left: 0px; margin: 0px; padding: 0px; position: fixed; top: 0px; transition: background 500ms, width 1500ms; width: 0%; z-index: 1;"></div>
 <div class="uiAnimateSpin" style="animation: uiAnimateSpin 2s linear infinite; border: 5px solid #999; border-radius: 50%; border-top: 5px solid #7d7; display: none; height: 25px; vertical-align: middle; width: 25px;"></div>
-<script></script>
+<script>
+/*jslint
+    bitwise: true,
+    browser: true,
+    maxerr: 8,
+    maxlen: 100,
+    node: true,
+    nomen: true,
+    regexp: true,
+    stupid: true
+*/
+(function () {
+    "use strict";
+    var ajaxProgressDiv1,
+        ajaxProgressState,
+        ajaxProgressUpdate,
+        timerIntervalAjaxProgressUpdate;
+    ajaxProgressDiv1 = document.querySelector("#ajaxProgressDiv1");
+    setTimeout(function () {
+        ajaxProgressDiv1.style.width = "25%";
+    });
+    ajaxProgressState = 0;
+    ajaxProgressUpdate = (window.local &&
+        window.local.ajaxProgressUpdate) || function () {
+        ajaxProgressDiv1.style.width = "100%";
+        setTimeout(function () {
+            ajaxProgressDiv1.style.background = "transparent";
+            setTimeout(function () {
+                ajaxProgressDiv1.style.width = "0%";
+            }, 500);
+        }, 1500);
+    };
+    timerIntervalAjaxProgressUpdate = setInterval(function () {
+        ajaxProgressState += 1;
+        ajaxProgressDiv1.style.width = Math.max(
+            100 - 75 * Math.exp(-0.125 * ajaxProgressState),
+            Number(ajaxProgressDiv1.style.width.slice(0, -1)) || 0
+        ) + "%";
+    }, 1000);
+    window.addEventListener("load", function () {
+        clearInterval(timerIntervalAjaxProgressUpdate);
+        ajaxProgressUpdate();
+    });
+}());
+</script>
 <div class="swggUiContainer"><!-- <div class="swggUiContainer"> -->
 <div class="eventDelegateKeyup eventDelegateSubmit onEventUiReload thead">
     <a class="td td1" href="https://github.com/kaizhu256/node-swgg" target="_blank">swgg</a>
-    <input class="td td2" placeholder="http://petstore.swagger.io/v2/swagger.json" type="text" value="https://h1-swgg-wechat-pay-master.herokuapp.com/assets.swgg.swagger.json">
+    <input class="td td2" placeholder="http://petstore.swagger.io/v2/swagger.json" type="text" value="https://h1-swgg-wechat-pay-alpha.herokuapp.com/assets.swgg.swagger.json">
     <input class="td td3" id="swggApiKeyInput1" placeholder="api-key" type="text" value="">
     <button class="eventDelegateClick onEventUiReload td td4">explore</button>
     <button class="eventDelegateClick onEventUiReload td td5" id="swggApiKeyClearButton1">clear api-keys</button>
@@ -465,7 +500,7 @@ button {
 <pre id="swggAjaxProgressPre1">/*
  * initialize swgg-client
  * 1. download currently-loaded apis to file swagger.json:
- *     $ curl -L "https://h1-swgg-wechat-pay-master.herokuapp.com/assets.swgg.swagger.json" &gt; swagger.json
+ *     $ curl -L "https://h1-swgg-wechat-pay-alpha.herokuapp.com/assets.swgg.swagger.json" &gt; swagger.json
  * 2. npm install swgg
  *     $ npm install swgg
  * 3. run code below to initialize swgg-client
@@ -6163,9 +6198,24 @@ After completing a payment, the WeChat payment system will send the relevant pay
 </div>
 <!-- </div> -->
 </div>
-<script></script>
-<script></script>
-<script></script>
+<script>
+/*jslint
+    bitwise: true,
+    browser: true,
+    maxerr: 8,
+    maxlen: 100,
+    node: true,
+    nomen: true,
+    regexp: true,
+    stupid: true
+*/
+"use strict";
+document.querySelector(".swggUiContainer > .thead > .td2").value =
+    ((/\bmodeSwaggerJsonUrl=([^&]+)/g).exec(location.search) || {})[1] ||
+        "assets.swgg.swagger.json";
+</script>
+<script src="assets.utility2.rollup.js"></script>
+<script>window.swgg.uiEventListenerDict[".onEventUiReload"]({ swggInit: true });</script>
 
 
 </body></html>
