@@ -60,12 +60,9 @@ this zero-dependency package will provide a swagger-client for wechat-pay's web-
 - improve notify_url
 - none
 
-#### changelog for v2018.1.18
-- npm publish v2018.1.18
-- auto-sync master swagger.json from ../swgg-$npm_package_swggAll/assets.swgg.swagger.json
-- disable heroku test-server
-- fix failed semanticRequired validation-error in ui
-- remove unused datatable link
+#### changelog 2018.1.18
+- npm publish 2018.1.18
+- update build
 - none
 
 #### this package requires
