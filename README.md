@@ -8,16 +8,13 @@ this zero-dependency package will provide a swagger-client for wechat-pay's web-
 
 
 
-[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-wechat-pay.svg)](https://travis-ci.org/kaizhu256/node-swgg-wechat-pay) [![coverage](https://kaizhu256.github.io/node-swgg-wechat-pay/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/coverage.html/index.html) [![snyk.io vulnerabilities](https://snyk.io/test/github/kaizhu256/node-swgg-wechat-pay/badge.svg)](https://snyk.io/test/github/kaizhu256/node-swgg-wechat-pay)
-
-[![NPM](https://nodei.co/npm/swgg-wechat-pay.png?downloads=true)](https://www.npmjs.com/package/swgg-wechat-pay)
+[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-wechat-pay.svg)](https://travis-ci.org/kaizhu256/node-swgg-wechat-pay) [![coverage](https://kaizhu256.github.io/node-swgg-wechat-pay/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/coverage.html/index.html)
 
 [![build commit status](https://kaizhu256.github.io/node-swgg-wechat-pay/build/build.badge.svg)](https://travis-ci.org/kaizhu256/node-swgg-wechat-pay)
 
 | git-branch : | [master](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/master) | [beta](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/beta) | [alpha](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/alpha)|
 |--:|:--|:--|:--|
 | test-server-github : | [![github.com test-server](https://kaizhu256.github.io/node-swgg-wechat-pay/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..master..travis-ci.org/app) | [![github.com test-server](https://kaizhu256.github.io/node-swgg-wechat-pay/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/app) | [![github.com test-server](https://kaizhu256.github.io/node-swgg-wechat-pay/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..alpha..travis-ci.org/app)|
-| test-server-heroku : | [![heroku.com test-server](https://kaizhu256.github.io/node-swgg-wechat-pay/heroku-logo.75x25.png)](https://h1-swgg-wechat-pay-master.herokuapp.com) | [![heroku.com test-server](https://kaizhu256.github.io/node-swgg-wechat-pay/heroku-logo.75x25.png)](https://h1-swgg-wechat-pay-beta.herokuapp.com) | [![heroku.com test-server](https://kaizhu256.github.io/node-swgg-wechat-pay/heroku-logo.75x25.png)](https://h1-swgg-wechat-pay-alpha.herokuapp.com)|
 | test-report : | [![test-report](https://kaizhu256.github.io/node-swgg-wechat-pay/build..master..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..master..travis-ci.org/test-report.html) | [![test-report](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/test-report.html) | [![test-report](https://kaizhu256.github.io/node-swgg-wechat-pay/build..alpha..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..alpha..travis-ci.org/test-report.html)|
 | coverage : | [![coverage](https://kaizhu256.github.io/node-swgg-wechat-pay/build..master..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..master..travis-ci.org/coverage.html/index.html) | [![coverage](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..beta..travis-ci.org/coverage.html/index.html) | [![coverage](https://kaizhu256.github.io/node-swgg-wechat-pay/build..alpha..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build..alpha..travis-ci.org/coverage.html/index.html)|
 | build-artifacts : | [![build-artifacts](https://kaizhu256.github.io/node-swgg-wechat-pay/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/gh-pages/build..master..travis-ci.org) | [![build-artifacts](https://kaizhu256.github.io/node-swgg-wechat-pay/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/gh-pages/build..beta..travis-ci.org) | [![build-artifacts](https://kaizhu256.github.io/node-swgg-wechat-pay/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/gh-pages/build..alpha..travis-ci.org)|
@@ -60,8 +57,8 @@ this zero-dependency package will provide a swagger-client for wechat-pay's web-
 - improve notify_url
 - none
 
-#### changelog 2018.1.18
-- npm publish 2018.1.18
+#### changelog 2018.6.19
+- npm publish 2018.6.19
 - update build
 - none
 
@@ -108,7 +105,7 @@ this script will run a web-demo of swgg-wechat-pay
 instruction
     1. save this script as example.js
     2. run the shell command:
-        $ npm install swgg-wechat-pay && PORT=8081 node example.js
+        $ npm install kaizhu256/node-swgg-wechat-pay#alpha && PORT=8081 node example.js
     3. open a browser to http://127.0.0.1:8081 and play with the web-demo
     4. edit this script to suit your needs
 */
@@ -116,10 +113,11 @@ instruction
 
 
 /* istanbul instrument in package swgg_wechat_pay */
+/* jslint-utility2 */
 /*jslint
     bitwise: true,
     browser: true,
-    maxerr: 8,
+    maxerr: 4,
     maxlen: 100,
     node: true,
     nomen: true,
@@ -137,24 +135,20 @@ instruction
         // init local
         local = {};
         // init modeJs
-        local.modeJs = (function () {
+        (function () {
             try {
-                return typeof navigator.userAgent === 'string' &&
-                    typeof document.querySelector('body') === 'object' &&
-                    typeof XMLHttpRequest.prototype.open === 'function' &&
-                    'browser';
-            } catch (errorCaughtBrowser) {
-                return module.exports &&
-                    typeof process.versions.node === 'string' &&
+                local.modeJs = typeof process.versions.node === 'string' &&
                     typeof require('http').createServer === 'function' &&
                     'node';
+            } catch (ignore) {
             }
+            local.modeJs = local.modeJs || 'browser';
         }());
         // init global
         local.global = local.modeJs === 'browser'
             ? window
             : global;
-        // init utility2_rollup
+        // re-init local
         local = local.global.utility2_rollup || (local.modeJs === 'browser'
             ? local.global.utility2_swgg_wechat_pay
             : require('swgg-wechat-pay'));
@@ -180,15 +174,43 @@ instruction
         // init exports
         module.exports = local;
         // require builtins
-        Object.keys(process.binding('natives')).forEach(function (key) {
-            if (!local[key] && !(/\/|^_|^sys$/).test(key)) {
-                local[key] = require(key);
-            }
-        });
+        // local.assert = require('assert');
+        local.buffer = require('buffer');
+        local.child_process = require('child_process');
+        local.cluster = require('cluster');
+        local.console = require('console');
+        local.constants = require('constants');
+        local.crypto = require('crypto');
+        local.dgram = require('dgram');
+        local.dns = require('dns');
+        local.domain = require('domain');
+        local.events = require('events');
+        local.fs = require('fs');
+        local.http = require('http');
+        local.https = require('https');
+        local.module = require('module');
+        local.net = require('net');
+        local.os = require('os');
+        local.path = require('path');
+        local.process = require('process');
+        local.punycode = require('punycode');
+        local.querystring = require('querystring');
+        local.readline = require('readline');
+        local.repl = require('repl');
+        local.stream = require('stream');
+        local.string_decoder = require('string_decoder');
+        local.timers = require('timers');
+        local.tls = require('tls');
+        local.tty = require('tty');
+        local.url = require('url');
+        local.util = require('util');
+        local.v8 = require('v8');
+        local.vm = require('vm');
+        local.zlib = require('zlib');
+        /* validateLineSortedReset */
         // init assets
         local.assetsDict = local.assetsDict || {};
         [
-            'assets.index.css',
             'assets.index.template.html',
             'assets.swgg.swagger.json',
             'assets.swgg.swagger.server.json'
@@ -202,12 +224,19 @@ instruction
                 );
             }
         });
+        /* validateLineSortedReset */
+        /* jslint-ignore-begin */
+        // bug-workaround - long $npm_package_buildCustomOrg
+        local.assetsDict['/assets.swgg_wechat_pay.js'] =
+            local.assetsDict['/assets.swgg_wechat_pay.js'] ||
+            local.fs.readFileSync(local.__dirname + '/lib.swgg_wechat_pay.js', 'utf8'
+        ).replace((/^#!\//), '// ');
+        /* jslint-ignore-end */
+        /* validateLineSortedReset */
         local.assetsDict['/'] =
             local.assetsDict['/assets.example.html'] =
             local.assetsDict['/assets.index.template.html']
             .replace((/\{\{env\.(\w+?)\}\}/g), function (match0, match1) {
-                // jslint-hack
-                String(match0);
                 switch (match1) {
                 case 'npm_package_description':
                     return 'the greatest app in the world!';
@@ -228,15 +257,6 @@ instruction
         local.assetsDict['/assets.example.js'] =
             local.assetsDict['/assets.example.js'] ||
             local.fs.readFileSync(__filename, 'utf8');
-        // bug-workaround - long $npm_package_buildCustomOrg
-        /* jslint-ignore-begin */
-        local.assetsDict['/assets.swgg_wechat_pay.js'] =
-            local.assetsDict['/assets.swgg_wechat_pay.js'] ||
-            local.fs.readFileSync(
-                local.__dirname + '/lib.swgg_wechat_pay.js',
-                'utf8'
-            ).replace((/^#!/), '//');
-        /* jslint-ignore-end */
         local.assetsDict['/favicon.ico'] = local.assetsDict['/favicon.ico'] || '';
         // if $npm_config_timeout_exit exists,
         // then exit this process after $npm_config_timeout_exit ms
@@ -290,14 +310,7 @@ instruction
 1. [https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-wechat-pay%252Fbuild%252Fapp.png](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-wechat-pay%252Fbuild%252Fapp.png)
 [![screenshot](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-wechat-pay%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-wechat-pay%252Fbuild%252Fapp.png)
 
-1. [https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)
-[![screenshot](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)
 
-1. [https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252F.png](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252F.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHeroku.browser.%252F.png)
-
-1. [https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHerokuTest.browser.%252F.png](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHerokuTest.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHerokuTest.browser.%252F.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.deployHerokuTest.browser.%252F.png)
 
 1. [https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.npmTest.browser.%252F.png](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.npmTest.browser.%252F.png)
 [![screenshot](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.npmTest.browser.%252F.png)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/screenshot.npmTest.browser.%252F.png)
@@ -331,6 +344,7 @@ instruction
     "license": "MIT",
     "main": "lib.swgg_wechat_pay.js",
     "name": "swgg-wechat-pay",
+    "nameAliasPublish": "",
     "nameLib": "swgg_wechat_pay",
     "nameOriginal": "swgg-wechat-pay",
     "os": [
@@ -342,15 +356,16 @@ instruction
         "url": "https://github.com/kaizhu256/node-swgg-wechat-pay.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh",
-        "env": "env",
-        "heroku-postbuild": "npm uninstall utility2 2>/dev/null; npm install kaizhu256/node-utility2#alpha && utility2 shDeployHeroku",
-        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
-        "start": "PORT=${PORT:-8080} utility2 start test.js",
-        "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
     },
     "swggTags0": "wechat-pay",
-    "version": "2018.1.18"
+    "version": "2018.6.19"
 }
 ```
 
@@ -368,19 +383,20 @@ instruction
 
 # this shell script will run the build for this package
 
-shBuildCiAfter() {(set -e
+shBuildCiAfter () {(set -e
+    # shDeployCustom
     shDeployGithub
-    shDeployHeroku
+    # shDeployHeroku
     shReadmeTest example.sh
 )}
 
-shBuildCiBefore() {(set -e
-    shNpmTestPublished
+shBuildCiBefore () {(set -e
+    # shNpmTestPublished
     shReadmeTest example.js
 )}
 
 # run shBuildCi
-eval $(utility2 source)
+eval "$(utility2 source)"
 shBuildCi
 ```
 
