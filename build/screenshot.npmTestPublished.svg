@@ -1,21 +1,21 @@
-<svg height="2286" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="2286" fill="#555" width="720"></rect>
+<svg height="2894" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2894" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-06-19T20:47:24.848Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-06-19T20:59:51.046Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
 <tspan x="10" y="58">e_modules/swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
 
 <tspan x="10" y="90"></tspan>
 
-<tspan x="10" y="106">covering $ /home/travis/.nvm/versions/node/v6.14.3/bin/node /tmp/npmTestPublished/node_modules/s\</tspan>
+<tspan x="10" y="106">covering $ /home/travis/.nvm/versions/node/v10.4.1/bin/node /tmp/npmTestPublished/node_modules/s\</tspan>
 <tspan x="10" y="122">wgg-wechat-pay/test.js</tspan>
 
-<tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
+<tspan x="10" y="138">override assets /tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 34182</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 46541</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/package.json</tspan>
 
@@ -27,218 +27,293 @@
 
 <tspan x="10" y="250">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/LICENSE</tspan>
 
-<tspan x="10" y="266">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/package.json</tspan>
+<tspan x="10" y="266">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/npm_scripts.sh</tspan>
 
-<tspan x="10" y="282">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/README.md</tspan>
+<tspan x="10" y="282">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/package.json</tspan>
 
-<tspan x="10" y="298">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/test.js</tspan>
+<tspan x="10" y="298">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/package-lock.json</tspan>
 
-<tspan x="10" y="314">apidocCreate - requiring /tmp/npmTestPublished/node_modules/swgg-wechat-pay ...</tspan>
+<tspan x="10" y="314">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/README.md</tspan>
 
-<tspan x="10" y="330">apidocCreate - ... required /tmp/npmTestPublished/node_modules/swgg-wechat-pay</tspan>
+<tspan x="10" y="330">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-wechat-pay/test.js</tspan>
 
-<tspan x="10" y="346">created apidoc file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="346">apidocCreate - requiring /tmp/npmTestPublished/node_modules/swgg-wechat-pay ...</tspan>
 
-<tspan x="10" y="362"></tspan>
+<tspan x="10" y="362">apidocCreate - ... required /tmp/npmTestPublished/node_modules/swgg-wechat-pay</tspan>
 
-<tspan x="10" y="378">[node test-case 1 of 8 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="378">created apidoc file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/apidoc.html</tspan>
 
-<tspan x="10" y="394">[node test-case 2 of 8 passed] - testCase_buildCustomOrg_default</tspan>
+<tspan x="10" y="394"></tspan>
 
-<tspan x="10" y="410">[node test-case 3 of 8 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="410">[node test-case 1 of 8 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="426">[node test-case 4 of 8 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="426">[node test-case 2 of 8 passed] - testCase_buildCustomOrg_default</tspan>
 
-<tspan x="10" y="442">[node test-case 5 of 8 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="442">[node test-case 3 of 8 passed] - testCase_buildLib_default</tspan>
 
-<tspan x="10" y="458">[node test-case 6 of 8 passed] - testCase_nop_default</tspan>
+<tspan x="10" y="458">[node test-case 4 of 8 passed] - testCase_buildReadme_default</tspan>
 
-<tspan x="10" y="474">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="474">[node test-case 5 of 8 passed] - testCase_buildTest_default</tspan>
 
-<tspan x="10" y="490"></tspan>
+<tspan x="10" y="490">[node test-case 6 of 8 passed] - testCase_nop_default</tspan>
 
-<tspan x="10" y="506">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp\</tspan>
-<tspan x="10" y="522">/electron.16419cd5dc70.c8804a826df89.html</tspan>
+<tspan x="10" y="506"></tspan>
 
-<tspan x="10" y="538"></tspan>
+<tspan x="10" y="522">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp\</tspan>
+<tspan x="10" y="538">/electron.16419d8bc4c0.ea209b29f414a.html</tspan>
 
-<tspan x="10" y="554">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="554"></tspan>
 
-<tspan x="10" y="570">[13621:0619/204726.841035:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
-<tspan x="10" y="586">cted</tspan>
+<tspan x="10" y="570">(node:4662) ExperimentalWarning: The http2 module is an experimental API.</tspan>
 
-<tspan x="10" y="602">[13621:0619/204726.850725:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
-<tspan x="10" y="618">cted</tspan>
+<tspan x="10" y="586">(node:4662) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="634">[13653:0619/204726.960625:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
-<tspan x="10" y="650">threads in process gpu-process. </tspan>
+<tspan x="10" y="602">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module \</tspan>
+<tspan x="10" y="618">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="666">[13621:0619/204727.041519:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="682">el.</tspan>
+<tspan x="10" y="634">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module is\</tspan>
+<tspan x="10" y="650"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="698">[13621:0619/204727.041901:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="714">el.</tspan>
+<tspan x="10" y="666">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module \</tspan>
+<tspan x="10" y="682">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="730">[13621:0619/204727.042178:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="746">el.</tspan>
+<tspan x="10" y="698">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module \</tspan>
+<tspan x="10" y="714">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="762">[13621:0619/204727.045670:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="778">el.</tspan>
+<tspan x="10" y="730">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module is\</tspan>
+<tspan x="10" y="746"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="794">[13621:0619/204727.045812:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="810">el.</tspan>
+<tspan x="10" y="762">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' modu\</tspan>
+<tspan x="10" y="778">le is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="826">&gt; server listening on http-port 65457</tspan>
+<tspan x="10" y="794">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module \</tspan>
+<tspan x="10" y="810">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="842"></tspan>
+<tspan x="10" y="826">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module \</tspan>
+<tspan x="10" y="842">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="858">browserTest - opened http://127.0.0.1:34182/index.default.html?modeTest=1</tspan>
+<tspan x="10" y="858">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mod\</tspan>
+<tspan x="10" y="874">ule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="874"></tspan>
+<tspan x="10" y="890">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module \</tspan>
+<tspan x="10" y="906">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="890">[13621:0619/204727.696094:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.s\</tspan>
-<tspan x="10" y="906">wgg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/e\</tspan>
-<tspan x="10" y="922">lectron.16419cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="922">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-driv\</tspan>
+<tspan x="10" y="938">er' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="938">[13621:0619/204727.717158:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildA\</tspan>
-<tspan x="10" y="954">pidoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1\</tspan>
-<tspan x="10" y="970">6419cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="954">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect' \</tspan>
+<tspan x="10" y="970">module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="986">[13621:0619/204727.718984:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildA\</tspan>
-<tspan x="10" y="1002">pp_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1641\</tspan>
-<tspan x="10" y="1018">9cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="986">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="1002">nspect_client' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1034">[13621:0619/204727.719017:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildC\</tspan>
-<tspan x="10" y="1050">ustomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electro\</tspan>
-<tspan x="10" y="1066">n.16419cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="1018">(node:4662) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="1034">nspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1082">[13621:0619/204727.720581:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildL\</tspan>
-<tspan x="10" y="1098">ib_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1641\</tspan>
-<tspan x="10" y="1114">9cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="1050">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="1130">[13621:0619/204727.720615:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildR\</tspan>
-<tspan x="10" y="1146">eadme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.1\</tspan>
-<tspan x="10" y="1162">6419cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="1066">&gt; server listening on http-port 42272</tspan>
 
-<tspan x="10" y="1178">[13621:0619/204727.721669:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildT\</tspan>
-<tspan x="10" y="1194">est_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.164\</tspan>
-<tspan x="10" y="1210">19cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="1082">{ Error: error.semanticPaths7 - Path parameter swaggerJson["paths"]["/pay/unifiedorder"]["post"]\</tspan>
+<tspan x="10" y="1098">["parameters"][18] = {"default":"http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php","descripti\</tspan>
+<tspan x="10" y="1114">on":"Notification URL.... was defined but never used</tspan>
 
-<tspan x="10" y="1226">[13621:0619/204727.722157:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_de\</tspan>
-<tspan x="10" y="1242">fault", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419cd5d\</tspan>
-<tspan x="10" y="1258">c70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="1130">    at Object.local.throwSwaggerError (/tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets\</tspan>
+<tspan x="10" y="1146">.utility2.rollup.js:27900:21)</tspan>
 
-<tspan x="10" y="1274">[13621:0619/204727.723294:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpag\</tspan>
-<tspan x="10" y="1290">e_default", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419\</tspan>
-<tspan x="10" y="1306">cd5dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="1162">    at /tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:27135:35</tspan>
 
-<tspan x="10" y="1322">[13621:0619/204728.734727:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|----\</tspan>
-<tspan x="10" y="1338">-------|</tspan>
+<tspan x="10" y="1178">    at Array.forEach (native)</tspan>
 
-<tspan x="10" y="1354">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="1194">    at /tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:27095:50</tspan>
 
-<tspan x="10" y="1370">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1210">    at Array.forEach (native)</tspan>
 
-<tspan x="10" y="1386">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1226">    at /tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:27072:54</tspan>
 
-<tspan x="10" y="1402">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1242">    at Array.forEach (native)</tspan>
 
-<tspan x="10" y="1418">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1258">    at Object.local.swaggerValidate (/tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets.u\</tspan>
+<tspan x="10" y="1274">tility2.rollup.js:27071:44)</tspan>
 
-<tspan x="10" y="1434">", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419cd5dc70.c\</tspan>
-<tspan x="10" y="1450">8804a826df89.html (71)</tspan>
+<tspan x="10" y="1290">    at /tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:25573:23</tspan>
 
-<tspan x="10" y="1466">[13621:0619/204728.738792:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/inde\</tspan>
-<tspan x="10" y="1482">x.html", source: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419cd5\</tspan>
-<tspan x="10" y="1498">dc70.c8804a826df89.html (71)</tspan>
+<tspan x="10" y="1306">    at Object.local.tryCatchOnError (/tmp/npmTestPublished/node_modules/swgg-wechat-pay/assets.u\</tspan>
+<tspan x="10" y="1322">tility2.rollup.js:22665:26)</tspan>
 
-<tspan x="10" y="1514">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="1338">  messageShort: 'Path parameter /pay/unifiedorder["post"]["parameters"][18] was defined but neve\</tspan>
+<tspan x="10" y="1354">r used',</tspan>
 
-<tspan x="10" y="1530"></tspan>
+<tspan x="10" y="1370">  options: </tspan>
 
-<tspan x="10" y="1546">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/buil\</tspan>
-<tspan x="10" y="1562">d/screenshot.npmTestPublished.browser.%2F.png</tspan>
+<tspan x="10" y="1386">   { data: </tspan>
 
-<tspan x="10" y="1578"></tspan>
+<tspan x="10" y="1402">      { default: 'http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php',</tspan>
 
-<tspan x="10" y="1594">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/buil\</tspan>
-<tspan x="10" y="1610">d/screenshot.npmTestPublished.browser.%2F.html</tspan>
+<tspan x="10" y="1418">        description: 'Notification URL. Specifies callback address for receiving WeChat payment \</tspan>
+<tspan x="10" y="1434">notifications.',</tspan>
 
-<tspan x="10" y="1626"></tspan>
+<tspan x="10" y="1450">        in: 'path',</tspan>
 
-<tspan x="10" y="1642">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/c\</tspan>
-<tspan x="10" y="1658">overage.npmTestPublished.browser.%2Findex.default.html.json</tspan>
+<tspan x="10" y="1466">        name: 'notify_url',</tspan>
 
-<tspan x="10" y="1674"></tspan>
+<tspan x="10" y="1482">        required: true,</tspan>
 
-<tspan x="10" y="1690"></tspan>
+<tspan x="10" y="1498">        type: 'string' },</tspan>
 
-<tspan x="10" y="1706">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tm\</tspan>
-<tspan x="10" y="1722">p/test-report.npmTestPublished.browser.%2Findex.default.html.json</tspan>
+<tspan x="10" y="1514">     errorType: 'semanticPaths7',</tspan>
 
-<tspan x="10" y="1738"></tspan>
+<tspan x="10" y="1530">     prefix: </tspan>
 
-<tspan x="10" y="1754">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1546">      [ 'swaggerJson',</tspan>
 
-<tspan x="10" y="1770">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1562">        'paths',</tspan>
 
-<tspan x="10" y="1786">File                         |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="1578">        '/pay/unifiedorder',</tspan>
 
-<tspan x="10" y="1802">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1594">        'post',</tspan>
 
-<tspan x="10" y="1818">   swgg-wechat-pay/          |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1610">        'parameters',</tspan>
 
-<tspan x="10" y="1834">      example.js             |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1626">        18 ],</tspan>
 
-<tspan x="10" y="1850">      lib.swgg_wechat_pay.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1642">     prefix0: 'swaggerJson["paths"]["/pay/unifiedorder"]["post"]["parameters"][18] = {"default":\</tspan>
+<tspan x="10" y="1658">"http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php","description":"Notification URL....',</tspan>
 
-<tspan x="10" y="1866">      test.js                |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1674">     prefix2: '/pay/unifiedorder["post"]["parameters"][18]',</tspan>
 
-<tspan x="10" y="1882">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1690">     schema2: 'undefined',</tspan>
 
-<tspan x="10" y="1898">All files                    |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1706">     type2: 'object' },</tspan>
 
-<tspan x="10" y="1914">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1722">  statusCode: 400 }</tspan>
 
-<tspan x="10" y="1930"></tspan>
+<tspan x="10" y="1738">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="1946">created coverage file /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/build/coverage.html\</tspan>
-<tspan x="10" y="1962">/index.html</tspan>
+<tspan x="10" y="1754">[4729:0619/205953.241745:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="1770">ted</tspan>
 
-<tspan x="10" y="1978"></tspan>
+<tspan x="10" y="1786">[4729:0619/205953.241816:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="1802">ted</tspan>
 
-<tspan x="10" y="1994">-------------------------------------------------------</tspan>
+<tspan x="10" y="1818">[4768:0619/205953.272143:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="1834">hreads in process gpu-process. </tspan>
 
-<tspan x="10" y="2010">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
-<tspan x="10" y="2026">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
-<tspan x="10" y="2042">018-06-19T20:47:27.660Z</tspan>
+<tspan x="10" y="1850">[4729:0619/205953.413730:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1866">l.</tspan>
 
-<tspan x="10" y="2058">|      12 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1882">[4729:0619/205953.414416:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1898">l.</tspan>
 
-<tspan x="10" y="2074">-------------------------------------------------------</tspan>
+<tspan x="10" y="1914">[4729:0619/205953.415779:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1930">l.</tspan>
 
-<tspan x="10" y="2090">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T20:47:25.174Z</tspan>
+<tspan x="10" y="1946">[4729:0619/205953.420751:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1962">l.</tspan>
 
-<tspan x="10" y="2106">|   16774 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1978">[4729:0619/205953.422238:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1994">l.</tspan>
 
-<tspan x="10" y="2122">-------------------------------------------------------</tspan>
+<tspan x="10" y="2010"></tspan>
 
-<tspan x="10" y="2138"></tspan>
+<tspan x="10" y="2026">browserTest - opened http://127.0.0.1:46541/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
-<tspan x="10" y="2154">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
-<tspan x="10" y="2170">.html</tspan>
+<tspan x="10" y="2042"></tspan>
 
-<tspan x="10" y="2186"></tspan>
+<tspan x="10" y="2058">[4729:0619/205954.057386:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:46541/asset\</tspan>
+<tspan x="10" y="2074">s.swgg.swagger.json</tspan>
 
-<tspan x="10" y="2202"></tspan>
+<tspan x="10" y="2090">    "..."</tspan>
 
-<tspan x="10" y="2218">npmTestPublished - 0 failed tests</tspan>
+<tspan x="10" y="2106">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:46541/assets.swgg.swagger.json", so\</tspan>
+<tspan x="10" y="2122">urce: file:///tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/electron.16419d8bc4c0.ea209b\</tspan>
+<tspan x="10" y="2138">29f414a.html (266)</tspan>
 
-<tspan x="10" y="2234"></tspan>
+<tspan x="10" y="2154">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
-<tspan x="10" y="2250"></tspan>
+<tspan x="10" y="2170"></tspan>
 
-<tspan x="10" y="2266">[MODE_BUILD=npmTestPublished] - 2018-06-19T20:47:43.875Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2186">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/buil\</tspan>
+<tspan x="10" y="2202">d/screenshot.npmTestPublished.browser.%2F.png</tspan>
+
+<tspan x="10" y="2218"></tspan>
+
+<tspan x="10" y="2234">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/buil\</tspan>
+<tspan x="10" y="2250">d/screenshot.npmTestPublished.browser.%2F.html</tspan>
+
+<tspan x="10" y="2266"></tspan>
+
+<tspan x="10" y="2282">browserTest - exit-code 0 - http://127.0.0.1:46541/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+
+<tspan x="10" y="2298"></tspan>
+
+<tspan x="10" y="2314"></tspan>
+
+<tspan x="10" y="2330">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/c\</tspan>
+<tspan x="10" y="2346">overage.npmTestPublished.browser.%2Findex.html.json</tspan>
+
+<tspan x="10" y="2362"></tspan>
+
+<tspan x="10" y="2378"></tspan>
+
+<tspan x="10" y="2394">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tm\</tspan>
+<tspan x="10" y="2410">p/test-report.npmTestPublished.browser.%2Findex.html.json</tspan>
+
+<tspan x="10" y="2426"></tspan>
+
+<tspan x="10" y="2442">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
+
+<tspan x="10" y="2458">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="2474">File                         |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+
+<tspan x="10" y="2490">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="2506">   swgg-wechat-pay/          |       100 |     92.75 |       100 |       100 |</tspan>
+
+<tspan x="10" y="2522">      example.js             |       100 |     92.86 |       100 |       100 |</tspan>
+
+<tspan x="10" y="2538">      lib.swgg_wechat_pay.js |       100 |       100 |       100 |       100 |</tspan>
+
+<tspan x="10" y="2554">      test.js                |       100 |     77.78 |       100 |       100 |</tspan>
+
+<tspan x="10" y="2570">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="2586">All files                    |       100 |     92.75 |       100 |       100 |</tspan>
+
+<tspan x="10" y="2602">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="2618"></tspan>
+
+<tspan x="10" y="2634">created coverage file /tmp/npmTestPublished/node_modules/swgg-wechat-pay/tmp/build/coverage.html\</tspan>
+<tspan x="10" y="2650">/index.html</tspan>
+
+<tspan x="10" y="2666"></tspan>
+
+<tspan x="10" y="2682">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="2698">| test-report - npmTestPublished - node - linux v10.4.1 - 2018-06-19T20:59:51.289Z</tspan>
+
+<tspan x="10" y="2714">|   18375 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="2730">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="2746"></tspan>
+
+<tspan x="10" y="2762">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
+<tspan x="10" y="2778">.html</tspan>
+
+<tspan x="10" y="2794"></tspan>
+
+<tspan x="10" y="2810"></tspan>
+
+<tspan x="10" y="2826">npmTestPublished - 0 failed tests</tspan>
+
+<tspan x="10" y="2842"></tspan>
+
+<tspan x="10" y="2858"></tspan>
+
+<tspan x="10" y="2874">[MODE_BUILD=npmTestPublished] - 2018-06-19T21:00:11.220Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
