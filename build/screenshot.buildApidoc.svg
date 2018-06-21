@@ -1,9 +1,9 @@
-<svg height="1262" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1262" fill="#555" width="720"></rect>
+<svg height="1822" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1822" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-21T16:59:42.796Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-21T17:03:58.282Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="58">ode-swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 44048</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 41407</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/package.json</tspan>
 
@@ -39,101 +39,165 @@
 
 <tspan x="10" y="346">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/test.js</tspan>
 
-<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/.travis.yml</tspan>
+<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/.touch.txt</tspan>
 
-<tspan x="10" y="378">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-wechat-pay ...</tspan>
+<tspan x="10" y="378">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/.travis.yml</tspan>
 
-<tspan x="10" y="394">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-wechat-pay</tspan>
+<tspan x="10" y="394">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-wechat-pay ...</tspan>
 
-<tspan x="10" y="410">created apidoc file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="410">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-wechat-pay</tspan>
 
-<tspan x="10" y="426"></tspan>
+<tspan x="10" y="426">created apidoc file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/apidoc.html</tspan>
 
-<tspan x="10" y="442">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="442"></tspan>
 
-<tspan x="10" y="458">(node:5452) ExperimentalWarning: The http2 module is an experimental API.</tspan>
+<tspan x="10" y="458">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="474">(node:5452) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="474">(node:8222) ExperimentalWarning: The http2 module is an experimental API.</tspan>
 
-<tspan x="10" y="490">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module \</tspan>
-<tspan x="10" y="506">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="490">(node:8222) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="522">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module is\</tspan>
-<tspan x="10" y="538"> deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="506">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module \</tspan>
+<tspan x="10" y="522">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="554">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module \</tspan>
-<tspan x="10" y="570">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="538">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module is\</tspan>
+<tspan x="10" y="554"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="586">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module \</tspan>
-<tspan x="10" y="602">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="570">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module \</tspan>
+<tspan x="10" y="586">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="618">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module is\</tspan>
-<tspan x="10" y="634"> deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="602">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module \</tspan>
+<tspan x="10" y="618">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="650">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' modu\</tspan>
-<tspan x="10" y="666">le is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="634">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module is\</tspan>
+<tspan x="10" y="650"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="682">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module \</tspan>
-<tspan x="10" y="698">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="666">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' modu\</tspan>
+<tspan x="10" y="682">le is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="714">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module \</tspan>
-<tspan x="10" y="730">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="698">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module \</tspan>
+<tspan x="10" y="714">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="746">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mod\</tspan>
-<tspan x="10" y="762">ule is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="730">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module \</tspan>
+<tspan x="10" y="746">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="778">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module \</tspan>
-<tspan x="10" y="794">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="762">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mod\</tspan>
+<tspan x="10" y="778">ule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="810">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-driv\</tspan>
-<tspan x="10" y="826">er' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="794">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module \</tspan>
+<tspan x="10" y="810">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="842">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect' \</tspan>
-<tspan x="10" y="858">module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="826">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-driv\</tspan>
+<tspan x="10" y="842">er' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="874">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
-<tspan x="10" y="890">nspect_client' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="858">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect' \</tspan>
+<tspan x="10" y="874">module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="906">(node:5452) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
-<tspan x="10" y="922">nspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="890">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="906">nspect_client' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="938"></tspan>
+<tspan x="10" y="922">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="938">nspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="954">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp\</tspan>
-<tspan x="10" y="970">/build/test-report.json</tspan>
+<tspan x="10" y="954">{ Error: error.semanticPaths7 - Path parameter swaggerJson["paths"]["/{notify_url}"]["post"]["pa\</tspan>
+<tspan x="10" y="970">rameters"][0] = {"in":"path","required":true,"type":"string","x-swgg-$ref":"#/parameters/notify_\</tspan>
+<tspan x="10" y="986">url.required"} was defined but never used</tspan>
 
-<tspan x="10" y="986"></tspan>
+<tspan x="10" y="1002">    at Object.local.throwSwaggerError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.\</tspan>
+<tspan x="10" y="1018">utility2.rollup.js:27902:21)</tspan>
 
-<tspan x="10" y="1002">-------------------------------------------------------</tspan>
+<tspan x="10" y="1034">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27137:35</tspan>
 
-<tspan x="10" y="1018">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T16:59:42.975Z</tspan>
+<tspan x="10" y="1050">    at Array.forEach (&lt;anonymous&gt;)</tspan>
 
-<tspan x="10" y="1034">|     146 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1066">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27097:50</tspan>
 
-<tspan x="10" y="1050">-------------------------------------------------------</tspan>
+<tspan x="10" y="1082">    at Array.forEach (&lt;anonymous&gt;)</tspan>
 
-<tspan x="10" y="1066">| test-report - npmTest - node - linux v10.5.0 - 2018-06-21T16:59:22.870Z</tspan>
+<tspan x="10" y="1098">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27074:54</tspan>
 
-<tspan x="10" y="1082">|   17396 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1114">    at Array.forEach (&lt;anonymous&gt;)</tspan>
 
-<tspan x="10" y="1098">-------------------------------------------------------</tspan>
+<tspan x="10" y="1130">    at Object.local.swaggerValidate (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
+<tspan x="10" y="1146">ility2.rollup.js:27073:44)</tspan>
 
-<tspan x="10" y="1114"></tspan>
+<tspan x="10" y="1162">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:21200:40</tspan>
 
-<tspan x="10" y="1130">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
-<tspan x="10" y="1146">.html</tspan>
+<tspan x="10" y="1178">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
+<tspan x="10" y="1194">ility2.rollup.js:22667:26)</tspan>
 
-<tspan x="10" y="1162"></tspan>
+<tspan x="10" y="1210">  messageShort:</tspan>
 
-<tspan x="10" y="1178"></tspan>
+<tspan x="10" y="1226">   'Path parameter /{notify_url}["post"]["parameters"][0] was defined but never used',</tspan>
 
-<tspan x="10" y="1194">buildApidoc - 0 failed tests</tspan>
+<tspan x="10" y="1242">  options:</tspan>
 
-<tspan x="10" y="1210"></tspan>
+<tspan x="10" y="1258">   { data:</tspan>
 
-<tspan x="10" y="1226"></tspan>
+<tspan x="10" y="1274">      { in: 'path',</tspan>
 
-<tspan x="10" y="1242">[MODE_BUILD=buildApidoc] - 2018-06-21T16:59:44.527Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1290">        required: true,</tspan>
+
+<tspan x="10" y="1306">        type: 'string',</tspan>
+
+<tspan x="10" y="1322">        'x-swgg-$ref': '#/parameters/notify_url.required' },</tspan>
+
+<tspan x="10" y="1338">     errorType: 'semanticPaths7',</tspan>
+
+<tspan x="10" y="1354">     prefix:</tspan>
+
+<tspan x="10" y="1370">      [ 'swaggerJson', 'paths', '/{notify_url}', 'post', 'parameters', 0 ],</tspan>
+
+<tspan x="10" y="1386">     prefix0:</tspan>
+
+<tspan x="10" y="1402">      'swaggerJson["paths"]["/{notify_url}"]["post"]["parameters"][0] = {"in":"path","required":\</tspan>
+<tspan x="10" y="1418">true,"type":"string","x-swgg-$ref":"#/parameters/notify_url.required"}',</tspan>
+
+<tspan x="10" y="1434">     prefix2: '/{notify_url}["post"]["parameters"][0]',</tspan>
+
+<tspan x="10" y="1450">     schema2: 'undefined',</tspan>
+
+<tspan x="10" y="1466">     type2: 'object' },</tspan>
+
+<tspan x="10" y="1482">  statusCode: 400 }</tspan>
+
+<tspan x="10" y="1498"></tspan>
+
+<tspan x="10" y="1514">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp\</tspan>
+<tspan x="10" y="1530">/build/test-report.json</tspan>
+
+<tspan x="10" y="1546"></tspan>
+
+<tspan x="10" y="1562">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1578">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T16:59:42.975Z</tspan>
+
+<tspan x="10" y="1594">|  255677 ms            0 failed        1 passed      |</tspan>
+
+<tspan x="10" y="1610">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1626">| test-report - npmTest - node - linux v10.5.0 - 2018-06-21T16:59:22.870Z</tspan>
+
+<tspan x="10" y="1642">|   17396 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="1658">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1674"></tspan>
+
+<tspan x="10" y="1690">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
+<tspan x="10" y="1706">.html</tspan>
+
+<tspan x="10" y="1722"></tspan>
+
+<tspan x="10" y="1738"></tspan>
+
+<tspan x="10" y="1754">buildApidoc - 0 failed tests</tspan>
+
+<tspan x="10" y="1770"></tspan>
+
+<tspan x="10" y="1786"></tspan>
+
+<tspan x="10" y="1802">[MODE_BUILD=buildApidoc] - 2018-06-21T17:04:00.063Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
