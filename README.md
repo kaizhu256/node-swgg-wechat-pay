@@ -10,6 +10,8 @@ this zero-dependency package will provide a swagger-client for wechat-pay's web-
 
 [![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-wechat-pay.svg)](https://travis-ci.org/kaizhu256/node-swgg-wechat-pay) [![coverage](https://kaizhu256.github.io/node-swgg-wechat-pay/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-wechat-pay/build/coverage.html/index.html)
 
+[![NPM](https://nodei.co/npm/swgg-wechat-pay.png?downloads=true)](https://www.npmjs.com/package/swgg-wechat-pay)
+
 [![build commit status](https://kaizhu256.github.io/node-swgg-wechat-pay/build/build.badge.svg)](https://travis-ci.org/kaizhu256/node-swgg-wechat-pay)
 
 | git-branch : | [master](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/master) | [beta](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/beta) | [alpha](https://github.com/kaizhu256/node-swgg-wechat-pay/tree/alpha)|
@@ -105,7 +107,7 @@ this script will run a web-demo of swgg-wechat-pay
 instruction
     1. save this script as example.js
     2. run the shell command:
-        $ npm install kaizhu256/node-swgg-wechat-pay#alpha && PORT=8081 node example.js
+        $ npm install swgg-wechat-pay && PORT=8081 node example.js
     3. open a browser to http://127.0.0.1:8081 and play with the web-demo
     4. edit this script to suit your needs
 */
@@ -391,7 +393,7 @@ shBuildCiAfter () {(set -e
 )}
 
 shBuildCiBefore () {(set -e
-    # shNpmTestPublished
+    shNpmTestPublished
     shReadmeTest example.js
 )}
 
