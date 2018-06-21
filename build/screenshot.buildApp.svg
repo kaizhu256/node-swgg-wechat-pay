@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-21T17:04:23.420Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-21T17:10:01.336Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 48538</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 62532</tspan>
 
 <tspan x="10" y="170">{ Error: error.semanticPaths7 - Path parameter swaggerJson["paths"]["/{notify_url}"]["post"]["pa\</tspan>
 <tspan x="10" y="186">rameters"][0] = {"in":"path","required":true,"type":"string","x-swgg-$ref":"#/parameters/notify_\</tspan>
@@ -79,7 +79,7 @@
 
 <tspan x="10" y="698">  statusCode: 400 }</tspan>
 
-<tspan x="10" y="714">&gt; server listening on http-port 39740</tspan>
+<tspan x="10" y="714">&gt; server listening on http-port 35224</tspan>
 
 <tspan x="10" y="730">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
@@ -94,7 +94,7 @@
 
 <tspan x="10" y="826">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T16:59:42.975Z</tspan>
 
-<tspan x="10" y="842">|  286419 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="842">|  624379 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="858">-------------------------------------------------------</tspan>
 
@@ -119,7 +119,7 @@
 
 <tspan x="10" y="1034"></tspan>
 
-<tspan x="10" y="1050">[MODE_BUILD=buildApp] - 2018-06-21T17:04:30.807Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1050">[MODE_BUILD=buildApp] - 2018-06-21T17:10:08.760Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

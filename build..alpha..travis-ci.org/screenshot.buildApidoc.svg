@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-21T17:03:58.282Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-21T17:09:37.074Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="58">ode-swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 41407</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 43700</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/package.json</tspan>
 
@@ -53,51 +53,51 @@
 
 <tspan x="10" y="458">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="474">(node:8222) ExperimentalWarning: The http2 module is an experimental API.</tspan>
+<tspan x="10" y="474">(node:11055) ExperimentalWarning: The http2 module is an experimental API.</tspan>
 
-<tspan x="10" y="490">(node:8222) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="490">(node:11055) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="506">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module \</tspan>
-<tspan x="10" y="522">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="506">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module\</tspan>
+<tspan x="10" y="522"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="538">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module is\</tspan>
-<tspan x="10" y="554"> deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="538">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module i\</tspan>
+<tspan x="10" y="554">s deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="570">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module \</tspan>
-<tspan x="10" y="586">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="570">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module\</tspan>
+<tspan x="10" y="586"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="602">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module \</tspan>
-<tspan x="10" y="618">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="602">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module\</tspan>
+<tspan x="10" y="618"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="634">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module is\</tspan>
-<tspan x="10" y="650"> deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="634">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module i\</tspan>
+<tspan x="10" y="650">s deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="666">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' modu\</tspan>
-<tspan x="10" y="682">le is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="666">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' mod\</tspan>
+<tspan x="10" y="682">ule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="698">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module \</tspan>
-<tspan x="10" y="714">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="698">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module\</tspan>
+<tspan x="10" y="714"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="730">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module \</tspan>
-<tspan x="10" y="746">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="730">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module\</tspan>
+<tspan x="10" y="746"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="762">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mod\</tspan>
-<tspan x="10" y="778">ule is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="762">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mo\</tspan>
+<tspan x="10" y="778">dule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="794">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module \</tspan>
-<tspan x="10" y="810">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="794">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module\</tspan>
+<tspan x="10" y="810"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="826">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-driv\</tspan>
-<tspan x="10" y="842">er' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="826">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-dri\</tspan>
+<tspan x="10" y="842">ver' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="858">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect' \</tspan>
-<tspan x="10" y="874">module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="858">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect'\</tspan>
+<tspan x="10" y="874"> module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="890">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
-<tspan x="10" y="906">nspect_client' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="890">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/\</tspan>
+<tspan x="10" y="906">inspect_client' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="922">(node:8222) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
-<tspan x="10" y="938">nspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="922">(node:11055) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/\</tspan>
+<tspan x="10" y="938">inspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
 
 <tspan x="10" y="954">{ Error: error.semanticPaths7 - Path parameter swaggerJson["paths"]["/{notify_url}"]["post"]["pa\</tspan>
 <tspan x="10" y="970">rameters"][0] = {"in":"path","required":true,"type":"string","x-swgg-$ref":"#/parameters/notify_\</tspan>
@@ -172,7 +172,7 @@
 
 <tspan x="10" y="1578">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T16:59:42.975Z</tspan>
 
-<tspan x="10" y="1594">|  255677 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1594">|  594489 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="1610">-------------------------------------------------------</tspan>
 
@@ -197,7 +197,7 @@
 
 <tspan x="10" y="1786"></tspan>
 
-<tspan x="10" y="1802">[MODE_BUILD=buildApidoc] - 2018-06-21T17:04:00.063Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1802">[MODE_BUILD=buildApidoc] - 2018-06-21T17:09:38.873Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

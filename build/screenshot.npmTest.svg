@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-21T17:03:37.936Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-21T17:09:16.670Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
 <tspan x="10" y="58">swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -20,7 +20,7 @@
 
 <tspan x="10" y="186">override assets /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="202">&gt; server listening on http-port 64499</tspan>
+<tspan x="10" y="202">&gt; server listening on http-port 55165</tspan>
 
 <tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-wechat-pay/package.json</tspan>
 
@@ -71,100 +71,100 @@
 <tspan x="10" y="602"></tspan>
 
 <tspan x="10" y="618">browserTest - created electron entry-page /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/\</tspan>
-<tspan x="10" y="634">electron.164234d30520.5ba68d68d3ede.html</tspan>
+<tspan x="10" y="634">electron.16423525b780.eebdcd5d3683b.html</tspan>
 
 <tspan x="10" y="650"></tspan>
 
-<tspan x="10" y="666">(node:7916) ExperimentalWarning: The http2 module is an experimental API.</tspan>
+<tspan x="10" y="666">(node:10753) ExperimentalWarning: The http2 module is an experimental API.</tspan>
 
-<tspan x="10" y="682">(node:7916) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="682">(node:10753) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="698">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module \</tspan>
-<tspan x="10" y="714">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="698">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module\</tspan>
+<tspan x="10" y="714"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="730">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module is\</tspan>
-<tspan x="10" y="746"> deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="730">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module i\</tspan>
+<tspan x="10" y="746">s deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="762">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module \</tspan>
-<tspan x="10" y="778">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="762">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module\</tspan>
+<tspan x="10" y="778"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="794">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module \</tspan>
-<tspan x="10" y="810">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="794">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module\</tspan>
+<tspan x="10" y="810"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="826">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module is\</tspan>
-<tspan x="10" y="842"> deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="826">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module i\</tspan>
+<tspan x="10" y="842">s deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="858">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' modu\</tspan>
-<tspan x="10" y="874">le is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="858">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' mod\</tspan>
+<tspan x="10" y="874">ule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="890">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module \</tspan>
-<tspan x="10" y="906">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="890">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module\</tspan>
+<tspan x="10" y="906"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="922">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module \</tspan>
-<tspan x="10" y="938">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="922">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module\</tspan>
+<tspan x="10" y="938"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="954">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mod\</tspan>
-<tspan x="10" y="970">ule is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="954">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mo\</tspan>
+<tspan x="10" y="970">dule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="986">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module \</tspan>
-<tspan x="10" y="1002">is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="986">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module\</tspan>
+<tspan x="10" y="1002"> is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1018">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-driv\</tspan>
-<tspan x="10" y="1034">er' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1018">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-dri\</tspan>
+<tspan x="10" y="1034">ver' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1050">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect' \</tspan>
-<tspan x="10" y="1066">module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1050">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect'\</tspan>
+<tspan x="10" y="1066"> module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1082">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
-<tspan x="10" y="1098">nspect_client' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1082">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/\</tspan>
+<tspan x="10" y="1098">inspect_client' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1114">(node:7916) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
-<tspan x="10" y="1130">nspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1114">(node:10753) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/\</tspan>
+<tspan x="10" y="1130">inspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
 
 <tspan x="10" y="1146">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
 <tspan x="10" y="1162">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="1178">[7983:0621/170339.264203:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="1194">ted</tspan>
+<tspan x="10" y="1178">[10820:0621/170917.965132:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="1194">cted</tspan>
 
-<tspan x="10" y="1210">[7983:0621/170339.264272:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="1226">ted</tspan>
+<tspan x="10" y="1210">[10820:0621/170917.965212:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="1226">cted</tspan>
 
-<tspan x="10" y="1242">[8014:0621/170339.388771:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
-<tspan x="10" y="1258">hreads in process gpu-process. </tspan>
+<tspan x="10" y="1242">[10852:0621/170918.084058:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
+<tspan x="10" y="1258">threads in process gpu-process. </tspan>
 
-<tspan x="10" y="1274">[7983:0621/170339.414916:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="1290">l.</tspan>
+<tspan x="10" y="1274">[10820:0621/170918.129510:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1290">el.</tspan>
 
-<tspan x="10" y="1306">[7983:0621/170339.415111:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="1322">l.</tspan>
+<tspan x="10" y="1306">[10820:0621/170918.133691:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1322">el.</tspan>
 
-<tspan x="10" y="1338">[7983:0621/170339.415273:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="1354">l.</tspan>
+<tspan x="10" y="1338">[10820:0621/170918.138952:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1354">el.</tspan>
 
-<tspan x="10" y="1370">[7983:0621/170339.415611:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="1386">l.</tspan>
+<tspan x="10" y="1370">[10820:0621/170918.144989:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1386">el.</tspan>
 
-<tspan x="10" y="1402">[7983:0621/170339.415676:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="1418">l.</tspan>
+<tspan x="10" y="1402">[10820:0621/170918.151633:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="1418">el.</tspan>
 
-<tspan x="10" y="1434">&gt; server listening on http-port 65488</tspan>
+<tspan x="10" y="1434">&gt; server listening on http-port 43573</tspan>
 
 <tspan x="10" y="1450"></tspan>
 
-<tspan x="10" y="1466">browserTest - opened http://127.0.0.1:64499/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1466">browserTest - opened http://127.0.0.1:55165/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
 <tspan x="10" y="1482"></tspan>
 
-<tspan x="10" y="1498">[7983:0621/170340.003740:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:64499/asset\</tspan>
-<tspan x="10" y="1514">s.swgg.swagger.json</tspan>
+<tspan x="10" y="1498">[10820:0621/170918.782182:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:55165/asse\</tspan>
+<tspan x="10" y="1514">ts.swgg.swagger.json</tspan>
 
 <tspan x="10" y="1530">    "..."</tspan>
 
-<tspan x="10" y="1546">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:64499/assets.swgg.swagger.json", so\</tspan>
-<tspan x="10" y="1562">urce: file:///home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/electron.164234d30520.5ba68d6\</tspan>
-<tspan x="10" y="1578">8d3ede.html (266)</tspan>
+<tspan x="10" y="1546">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:55165/assets.swgg.swagger.json", so\</tspan>
+<tspan x="10" y="1562">urce: file:///home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/electron.16423525b780.eebdcd5\</tspan>
+<tspan x="10" y="1578">d3683b.html (266)</tspan>
 
 <tspan x="10" y="1594">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
@@ -180,7 +180,7 @@
 
 <tspan x="10" y="1706"></tspan>
 
-<tspan x="10" y="1722">browserTest - exit-code 0 - http://127.0.0.1:64499/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1722">browserTest - exit-code 0 - http://127.0.0.1:55165/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
 <tspan x="10" y="1738"></tspan>
 
@@ -236,7 +236,7 @@
 
 <tspan x="10" y="2186">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T16:59:42.975Z</tspan>
 
-<tspan x="10" y="2202">|  252723 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2202">|  591490 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2218">-------------------------------------------------------</tspan>
 
@@ -261,7 +261,7 @@
 
 <tspan x="10" y="2394"></tspan>
 
-<tspan x="10" y="2410">[MODE_BUILD=npmTest] - 2018-06-21T17:03:57.146Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2410">[MODE_BUILD=npmTest] - 2018-06-21T17:09:35.892Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
