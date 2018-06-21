@@ -1,9 +1,9 @@
-<svg height="1806" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1806" fill="#555" width="720"></rect>
+<svg height="1070" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1070" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T21:03:20.874Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-21T17:00:07.048Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-wechat-pay</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,197 +15,111 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">{ Error: error.semanticPaths7 - Path parameter swaggerJson["paths"]["/pay/unifiedorder"]["post"]\</tspan>
-<tspan x="10" y="170">["parameters"][18] = {"default":"http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php","descripti\</tspan>
-<tspan x="10" y="186">on":"Notification URL.... was defined but never used</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 52534</tspan>
 
-<tspan x="10" y="202">    at Object.local.throwSwaggerError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.\</tspan>
-<tspan x="10" y="218">utility2.rollup.js:27900:21)</tspan>
+<tspan x="10" y="170">{ Error: error.semanticPaths7 - Path parameter swaggerJson["paths"]["/{notify_url}"]["post"]["pa\</tspan>
+<tspan x="10" y="186">rameters"][0] = {"in":"path","required":true,"type":"string","x-swgg-$ref":"#/parameters/notify_\</tspan>
+<tspan x="10" y="202">url.required"} was defined but never used</tspan>
 
-<tspan x="10" y="234">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27135:35</tspan>
+<tspan x="10" y="218">    at Object.local.throwSwaggerError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.\</tspan>
+<tspan x="10" y="234">utility2.rollup.js:27902:21)</tspan>
 
-<tspan x="10" y="250">    at Array.forEach (&lt;anonymous&gt;)</tspan>
+<tspan x="10" y="250">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27137:35</tspan>
 
-<tspan x="10" y="266">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27095:50</tspan>
+<tspan x="10" y="266">    at Array.forEach (&lt;anonymous&gt;)</tspan>
 
-<tspan x="10" y="282">    at Array.forEach (&lt;anonymous&gt;)</tspan>
+<tspan x="10" y="282">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27097:50</tspan>
 
-<tspan x="10" y="298">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27072:54</tspan>
+<tspan x="10" y="298">    at Array.forEach (&lt;anonymous&gt;)</tspan>
 
-<tspan x="10" y="314">    at Array.forEach (&lt;anonymous&gt;)</tspan>
+<tspan x="10" y="314">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27074:54</tspan>
 
-<tspan x="10" y="330">    at Object.local.swaggerValidate (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
-<tspan x="10" y="346">ility2.rollup.js:27071:44)</tspan>
+<tspan x="10" y="330">    at Array.forEach (&lt;anonymous&gt;)</tspan>
 
-<tspan x="10" y="362">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:25573:23</tspan>
+<tspan x="10" y="346">    at Object.local.swaggerValidate (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
+<tspan x="10" y="362">ility2.rollup.js:27073:44)</tspan>
 
-<tspan x="10" y="378">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
-<tspan x="10" y="394">ility2.rollup.js:22665:26)</tspan>
+<tspan x="10" y="378">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:21200:40</tspan>
 
-<tspan x="10" y="410">  messageShort:</tspan>
+<tspan x="10" y="394">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
+<tspan x="10" y="410">ility2.rollup.js:22667:26)</tspan>
 
-<tspan x="10" y="426">   'Path parameter /pay/unifiedorder["post"]["parameters"][18] was defined but never used',</tspan>
+<tspan x="10" y="426">  messageShort:</tspan>
 
-<tspan x="10" y="442">  options:</tspan>
+<tspan x="10" y="442">   'Path parameter /{notify_url}["post"]["parameters"][0] was defined but never used',</tspan>
 
-<tspan x="10" y="458">   { data:</tspan>
+<tspan x="10" y="458">  options:</tspan>
 
-<tspan x="10" y="474">      { default: 'http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php',</tspan>
+<tspan x="10" y="474">   { data:</tspan>
 
-<tspan x="10" y="490">        description:</tspan>
+<tspan x="10" y="490">      { in: 'path',</tspan>
 
-<tspan x="10" y="506">         'Notification URL. Specifies callback address for receiving WeChat payment notification\</tspan>
-<tspan x="10" y="522">s.',</tspan>
+<tspan x="10" y="506">        required: true,</tspan>
 
-<tspan x="10" y="538">        in: 'path',</tspan>
+<tspan x="10" y="522">        type: 'string',</tspan>
 
-<tspan x="10" y="554">        name: 'notify_url',</tspan>
+<tspan x="10" y="538">        'x-swgg-$ref': '#/parameters/notify_url.required' },</tspan>
 
-<tspan x="10" y="570">        required: true,</tspan>
+<tspan x="10" y="554">     errorType: 'semanticPaths7',</tspan>
 
-<tspan x="10" y="586">        type: 'string' },</tspan>
+<tspan x="10" y="570">     prefix:</tspan>
 
-<tspan x="10" y="602">     errorType: 'semanticPaths7',</tspan>
+<tspan x="10" y="586">      [ 'swaggerJson', 'paths', '/{notify_url}', 'post', 'parameters', 0 ],</tspan>
 
-<tspan x="10" y="618">     prefix:</tspan>
+<tspan x="10" y="602">     prefix0:</tspan>
 
-<tspan x="10" y="634">      [ 'swaggerJson',</tspan>
+<tspan x="10" y="618">      'swaggerJson["paths"]["/{notify_url}"]["post"]["parameters"][0] = {"in":"path","required":\</tspan>
+<tspan x="10" y="634">true,"type":"string","x-swgg-$ref":"#/parameters/notify_url.required"}',</tspan>
 
-<tspan x="10" y="650">        'paths',</tspan>
+<tspan x="10" y="650">     prefix2: '/{notify_url}["post"]["parameters"][0]',</tspan>
 
-<tspan x="10" y="666">        '/pay/unifiedorder',</tspan>
+<tspan x="10" y="666">     schema2: 'undefined',</tspan>
 
-<tspan x="10" y="682">        'post',</tspan>
+<tspan x="10" y="682">     type2: 'object' },</tspan>
 
-<tspan x="10" y="698">        'parameters',</tspan>
+<tspan x="10" y="698">  statusCode: 400 }</tspan>
 
-<tspan x="10" y="714">        18 ],</tspan>
+<tspan x="10" y="714">&gt; server listening on http-port 38135</tspan>
 
-<tspan x="10" y="730">     prefix0:</tspan>
+<tspan x="10" y="730">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
-<tspan x="10" y="746">      'swaggerJson["paths"]["/pay/unifiedorder"]["post"]["parameters"][18] = {"default":"http://\</tspan>
-<tspan x="10" y="762">wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php","description":"Notification URL....',</tspan>
+<tspan x="10" y="746"></tspan>
 
-<tspan x="10" y="778">     prefix2: '/pay/unifiedorder["post"]["parameters"][18]',</tspan>
+<tspan x="10" y="762">buildApp - merged test-report from file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/bu\</tspan>
+<tspan x="10" y="778">ild/test-report.json</tspan>
 
-<tspan x="10" y="794">     schema2: 'undefined',</tspan>
+<tspan x="10" y="794"></tspan>
 
-<tspan x="10" y="810">     type2: 'object' },</tspan>
+<tspan x="10" y="810">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="826">  statusCode: 400 }</tspan>
+<tspan x="10" y="826">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T16:59:42.975Z</tspan>
 
-<tspan x="10" y="842">&gt; server listening on http-port 64088</tspan>
+<tspan x="10" y="842">|   29973 ms            0 failed        1 passed      |</tspan>
 
-<tspan x="10" y="858">{ Error: error.semanticPaths6 - Declared path parameter "notify_url" needs to be defined as a pa\</tspan>
-<tspan x="10" y="874">th parameter /{notify_url}["post"]["parameters"]["ii"] at either the path or operation level</tspan>
+<tspan x="10" y="858">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="890">    at Object.local.throwSwaggerError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.\</tspan>
-<tspan x="10" y="906">utility2.rollup.js:27900:21)</tspan>
+<tspan x="10" y="874">| test-report - npmTest - node - linux v10.5.0 - 2018-06-21T16:59:22.870Z</tspan>
 
-<tspan x="10" y="922">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27145:31</tspan>
+<tspan x="10" y="890">|   17396 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="938">    at Array.forEach (&lt;anonymous&gt;)</tspan>
+<tspan x="10" y="906">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="954">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27142:43</tspan>
+<tspan x="10" y="922"></tspan>
 
-<tspan x="10" y="970">    at Array.forEach (&lt;anonymous&gt;)</tspan>
+<tspan x="10" y="938">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
+<tspan x="10" y="954">.html</tspan>
 
-<tspan x="10" y="986">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:27072:54</tspan>
+<tspan x="10" y="970"></tspan>
 
-<tspan x="10" y="1002">    at Array.forEach (&lt;anonymous&gt;)</tspan>
+<tspan x="10" y="986"></tspan>
 
-<tspan x="10" y="1018">    at Object.local.swaggerValidate (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
-<tspan x="10" y="1034">ility2.rollup.js:27071:44)</tspan>
+<tspan x="10" y="1002">buildApp - 0 failed tests</tspan>
 
-<tspan x="10" y="1050">    at /home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.utility2.rollup.js:21198:40</tspan>
+<tspan x="10" y="1018"></tspan>
 
-<tspan x="10" y="1066">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-swgg-wechat-pay/assets.ut\</tspan>
-<tspan x="10" y="1082">ility2.rollup.js:22665:26)</tspan>
+<tspan x="10" y="1034"></tspan>
 
-<tspan x="10" y="1098">  messageShort:</tspan>
-
-<tspan x="10" y="1114">   'Declared path parameter "notify_url" needs to be defined as a path parameter /{notify_url}["\</tspan>
-<tspan x="10" y="1130">post"]["parameters"]["ii"] at either the path or operation level',</tspan>
-
-<tspan x="10" y="1146">  options:</tspan>
-
-<tspan x="10" y="1162">   { errorType: 'semanticPaths6',</tspan>
-
-<tspan x="10" y="1178">     name: 'notify_url',</tspan>
-
-<tspan x="10" y="1194">     prefix:</tspan>
-
-<tspan x="10" y="1210">      [ 'swaggerJson',</tspan>
-
-<tspan x="10" y="1226">        'paths',</tspan>
-
-<tspan x="10" y="1242">        '/{notify_url}',</tspan>
-
-<tspan x="10" y="1258">        'post',</tspan>
-
-<tspan x="10" y="1274">        'parameters',</tspan>
-
-<tspan x="10" y="1290">        'ii' ],</tspan>
-
-<tspan x="10" y="1306">     prefix0:</tspan>
-
-<tspan x="10" y="1322">      'swaggerJson["paths"]["/{notify_url}"]["post"]["parameters"]["ii"] = undefined',</tspan>
-
-<tspan x="10" y="1338">     prefix2: '/{notify_url}["post"]["parameters"]["ii"]',</tspan>
-
-<tspan x="10" y="1354">     schema2: 'undefined',</tspan>
-
-<tspan x="10" y="1370">     type2: 'object' },</tspan>
-
-<tspan x="10" y="1386">  statusCode: 400 }</tspan>
-
-<tspan x="10" y="1402">&gt; server listening on http-port 44947</tspan>
-
-<tspan x="10" y="1418">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
-
-<tspan x="10" y="1434"></tspan>
-
-<tspan x="10" y="1450">buildApp - merged test-report from file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/bu\</tspan>
-<tspan x="10" y="1466">ild/test-report.json</tspan>
-
-<tspan x="10" y="1482"></tspan>
-
-<tspan x="10" y="1498">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="1514">| test-report - buildApidoc - node - linux v10.4.1 - 2018-06-19T21:02:56.564Z</tspan>
-
-<tspan x="10" y="1530">|   30302 ms            0 failed        1 passed      |</tspan>
-
-<tspan x="10" y="1546">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="1562">| test-report - npmTest - node - linux v10.4.1 - 2018-06-19T21:02:35.811Z</tspan>
-
-<tspan x="10" y="1578">|   17900 ms            0 failed        8 passed      |</tspan>
-
-<tspan x="10" y="1594">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="1610">| test-report - npmTestPublished - node - linux v10.4.1 - 2018-06-19T21:01:26.892Z</tspan>
-
-<tspan x="10" y="1626">|   18155 ms            0 failed        8 passed      |</tspan>
-
-<tspan x="10" y="1642">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="1658"></tspan>
-
-<tspan x="10" y="1674">created test-report file /home/travis/build/kaizhu256/node-swgg-wechat-pay/tmp/build/test-report\</tspan>
-<tspan x="10" y="1690">.html</tspan>
-
-<tspan x="10" y="1706"></tspan>
-
-<tspan x="10" y="1722"></tspan>
-
-<tspan x="10" y="1738">buildApp - 0 failed tests</tspan>
-
-<tspan x="10" y="1754"></tspan>
-
-<tspan x="10" y="1770"></tspan>
-
-<tspan x="10" y="1786">[MODE_BUILD=buildApp] - 2018-06-19T21:03:28.387Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1050">[MODE_BUILD=buildApp] - 2018-06-21T17:00:14.366Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

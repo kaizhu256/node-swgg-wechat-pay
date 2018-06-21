@@ -101,7 +101,7 @@
         "notify_url.required": {
             "default": "http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php",
             "description": "Notification URL. Specifies callback address for receiving WeChat payment notifications.",
-            "in": "path",
+            "in": "formData",
             "name": "notify_url",
             "required": true,
             "type": "string"
@@ -1281,7 +1281,10 @@
                 "operationId": "_2F_7Bnotify_url_7D_20POST",
                 "parameters": [
                     {
-                        "$ref": "#/parameters/notify_url.required"
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "x-swgg-$ref": "#/parameters/notify_url.required"
                     },
                     {
                         "$ref": "#/parameters/return_code.required"

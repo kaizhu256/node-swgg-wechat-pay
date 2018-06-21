@@ -1,5 +1,5 @@
-<svg height="1006" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1006" fill="#555" width="720"></rect>
+<svg height="318" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="318" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
@@ -27,7 +27,7 @@
 
 <tspan x="10" y="218">+ swgg-wechat-pay@2018.6.19</tspan>
 
-<tspan x="10" y="234">added 1 package from 1 contributor and audited 1 package in 1.371s</tspan>
+<tspan x="10" y="234">added 1 package from 1 contributor and audited 1 package in 1.324s</tspan>
 
 <tspan x="10" y="250">found 0 vulnerabilities</tspan>
 
@@ -35,86 +35,7 @@
 
 <tspan x="10" y="282">override assets /tmp/app/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="298">{ Error: error.semanticPaths7 - Path parameter swaggerJson["paths"]["/pay/unifiedorder"]["post"]\</tspan>
-<tspan x="10" y="314">["parameters"][18] = {"default":"http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php","descripti\</tspan>
-<tspan x="10" y="330">on":"Notification URL.... was defined but never used</tspan>
-
-<tspan x="10" y="346">    at Object.local.throwSwaggerError (/tmp/app/node_modules/swgg-wechat-pay/assets.utility2.rol\</tspan>
-<tspan x="10" y="362">lup.js:27900:21)</tspan>
-
-<tspan x="10" y="378">    at /tmp/app/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:27135:35</tspan>
-
-<tspan x="10" y="394">    at Array.forEach (&lt;anonymous&gt;)</tspan>
-
-<tspan x="10" y="410">    at /tmp/app/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:27095:50</tspan>
-
-<tspan x="10" y="426">    at Array.forEach (&lt;anonymous&gt;)</tspan>
-
-<tspan x="10" y="442">    at /tmp/app/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:27072:54</tspan>
-
-<tspan x="10" y="458">    at Array.forEach (&lt;anonymous&gt;)</tspan>
-
-<tspan x="10" y="474">    at Object.local.swaggerValidate (/tmp/app/node_modules/swgg-wechat-pay/assets.utility2.rollu\</tspan>
-<tspan x="10" y="490">p.js:27071:44)</tspan>
-
-<tspan x="10" y="506">    at /tmp/app/node_modules/swgg-wechat-pay/assets.utility2.rollup.js:25573:23</tspan>
-
-<tspan x="10" y="522">    at Object.local.tryCatchOnError (/tmp/app/node_modules/swgg-wechat-pay/assets.utility2.rollu\</tspan>
-<tspan x="10" y="538">p.js:22665:26)</tspan>
-
-<tspan x="10" y="554">  messageShort:</tspan>
-
-<tspan x="10" y="570">   'Path parameter /pay/unifiedorder["post"]["parameters"][18] was defined but never used',</tspan>
-
-<tspan x="10" y="586">  options:</tspan>
-
-<tspan x="10" y="602">   { data:</tspan>
-
-<tspan x="10" y="618">      { default: 'http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php',</tspan>
-
-<tspan x="10" y="634">        description:</tspan>
-
-<tspan x="10" y="650">         'Notification URL. Specifies callback address for receiving WeChat payment notification\</tspan>
-<tspan x="10" y="666">s.',</tspan>
-
-<tspan x="10" y="682">        in: 'path',</tspan>
-
-<tspan x="10" y="698">        name: 'notify_url',</tspan>
-
-<tspan x="10" y="714">        required: true,</tspan>
-
-<tspan x="10" y="730">        type: 'string' },</tspan>
-
-<tspan x="10" y="746">     errorType: 'semanticPaths7',</tspan>
-
-<tspan x="10" y="762">     prefix:</tspan>
-
-<tspan x="10" y="778">      [ 'swaggerJson',</tspan>
-
-<tspan x="10" y="794">        'paths',</tspan>
-
-<tspan x="10" y="810">        '/pay/unifiedorder',</tspan>
-
-<tspan x="10" y="826">        'post',</tspan>
-
-<tspan x="10" y="842">        'parameters',</tspan>
-
-<tspan x="10" y="858">        18 ],</tspan>
-
-<tspan x="10" y="874">     prefix0:</tspan>
-
-<tspan x="10" y="890">      'swaggerJson["paths"]["/pay/unifiedorder"]["post"]["parameters"][18] = {"default":"http://\</tspan>
-<tspan x="10" y="906">wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php","description":"Notification URL....',</tspan>
-
-<tspan x="10" y="922">     prefix2: '/pay/unifiedorder["post"]["parameters"][18]',</tspan>
-
-<tspan x="10" y="938">     schema2: 'undefined',</tspan>
-
-<tspan x="10" y="954">     type2: 'object' },</tspan>
-
-<tspan x="10" y="970">  statusCode: 400 }</tspan>
-
-<tspan x="10" y="986">server starting on port 8081</tspan>
+<tspan x="10" y="298">server starting on port 8081</tspan>
 
 </text>
 </svg>
