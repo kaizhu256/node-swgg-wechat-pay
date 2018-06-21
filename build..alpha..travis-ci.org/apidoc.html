@@ -1,0 +1,928 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    overflow-wrap: break-word;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/kaizhu256/node-swgg-wechat-pay"
+
+    >swgg-wechat-pay (2018.6.19)</a>
+</h1>
+<h4>this zero-dependency package will provide a swagger-client for wechat-pay's web-apis, with a working web-demo</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg-wechat-pay">module swgg-wechat-pay</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">swgg-wechat-pay.</span>timeExit</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg.apiDict">module swgg.apiDict</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2F_7Bnotify_url_7D_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2F_7Bnotify_url_7D_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fcloseorder_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fcloseorder_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fdownloadbill_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fdownloadbill_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fmicropay_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fmicropay_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fqueryexchagerate_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fqueryexchagerate_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fsettlementquery_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fsettlementquery_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Funifiedorder_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Funifiedorder_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fpayitil_2Freport_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpayitil_2Freport_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Ftools_2Fshorturl_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Ftools_2Fshorturl_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg-wechat-pay" id="apidoc.module.swgg-wechat-pay">module swgg-wechat-pay</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg.apiDict" id="apidoc.module.swgg.apiDict">module swgg.apiDict</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2F_7Bnotify_url_7D_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2F_7Bnotify_url_7D_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2F_7Bnotify_url_7D_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2F_7Bnotify_url_7D_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /{}&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2F_7Bnotify_url_7D_20POST&quot;].ajax({
+        &quot;notify_url&quot;: &quot;http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php&quot;,
+        &quot;return_code&quot;: &quot;SUCCESS&quot;,
+        &quot;return_msg&quot;: &quot;Signature failure&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fcloseorder_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fcloseorder_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fcloseorder_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fcloseorder_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/closeorder&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Fcloseorder_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fdownloadbill_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fdownloadbill_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fdownloadbill_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fdownloadbill_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/downloadbill&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Fdownloadbill_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;device_info&quot;: &quot;013467007045764&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;bill_date&quot;: &quot;20140603&quot;,
+        &quot;bill_type&quot;: &quot;ALL&quot;,
+        &quot;tar_type&quot;: &quot;GZIP&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fmicropay_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fmicropay_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fmicropay_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fmicropay_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/micropay&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Fmicropay_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;device_info&quot;: &quot;013467007045764&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;body&quot;: &quot;Pay for QQ Coins&quot;,
+        &quot;detail&quot;: &quot;{\&quot;goods_detail\&quot;:[{\&quot;goods_id\&quot;:\&quot;iphone6s_1 6G\&quot;,\&quot;wxpay_goods_id\&quot;:\&quot;100 1\&quot;,\&quot;goods_name\&quot;:\&quot;iPhone 6s 16G\&quot;,\&quot;goods_num\&quot;:1,\&quot;price\&quot;:528800,\&quot;goods_category\&quot;:\&quot;1234 56\&quot;,\&quot;body\&quot;:\&quot;苹果手机\&quot;},{\&quot;goods_id\&quot;:\&quot;iphone6s_3 2G\&quot;,\&quot;wxpay_goods_id\&quot;:\&quot;100 2\&quot;,\&quot;goods_name\&quot;:\&quot;iPhone 6s 32G\&quot;,\&quot;quantity\&quot;:1,\&quot;price\&quot;:608800,\&quot;goods_category\&quot;:\&quot;1237 89\&quot;,\&quot;body\&quot;:\&quot;苹果手机\&quot;}]}&quot;,
+        &quot;attach&quot;: &quot;User-Defined Data&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;fee_type&quot;: &quot;USD&quot;,
+        &quot;total_fee&quot;: 888,
+        &quot;spbill_create_ip&quot;: &quot;8.8.8.8&quot;,
+        &quot;goods_tag&quot;: &quot;abcd1234&quot;,
+        &quot;auth_code&quot;: &quot;120061098828009406&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/orderquery#out_trade_no.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Forderquery_23out_trade_no.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Forderquery_23transaction_id.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/orderquery#transaction_id.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Forderquery_23transaction_id.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;transaction_id&quot;: &quot;013467007045764&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fqueryexchagerate_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fqueryexchagerate_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fqueryexchagerate_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fqueryexchagerate_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/queryexchagerate&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Fqueryexchagerate_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;fee_type&quot;: &quot;USD&quot;,
+        &quot;date&quot;: &quot;20150807&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/refundquery#out_refund_no.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Frefundquery_23out_refund_no.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;out_refund_no&quot;: &quot;1217752501201407033233368018&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/refundquery#out_trade_no.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Frefundquery_23out_trade_no.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23refund_id.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/refundquery#refund_id.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Frefundquery_23refund_id.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;refund_id&quot;: &quot;013467007045764&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/refundquery#transaction_id.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Frefundquery_23transaction_id.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;transaction_id&quot;: &quot;013467007045764&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Fsettlementquery_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Fsettlementquery_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Fsettlementquery_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Fsettlementquery_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/settlementquery&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Fsettlementquery_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;usetag&quot;: 1,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;offset&quot;: 1,
+        &quot;limit&quot;: 10,
+        &quot;date_start&quot;: &quot;20150807&quot;,
+        &quot;date_end&quot;: &quot;20150807&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpay_2Funifiedorder_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpay_2Funifiedorder_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpay_2Funifiedorder_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpay_2Funifiedorder_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /pay/unifiedorder&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpay_2Funifiedorder_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;device_info&quot;: &quot;013467007045764&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;body&quot;: &quot;Pay for QQ Coins&quot;,
+        &quot;detail&quot;: &quot;{\&quot;goods_detail\&quot;:[{\&quot;goods_id\&quot;:\&quot;iphone6s_1 6G\&quot;,\&quot;wxpay_goods_id\&quot;:\&quot;100 1\&quot;,\&quot;goods_name\&quot;:\&quot;iPhone 6s 16G\&quot;,\&quot;goods_num\&quot;:1,\&quot;price\&quot;:528800,\&quot;goods_category\&quot;:\&quot;1234 56\&quot;,\&quot;body\&quot;:\&quot;苹果手机\&quot;},{\&quot;goods_id\&quot;:\&quot;iphone6s_3 2G\&quot;,\&quot;wxpay_goods_id\&quot;:\&quot;100 2\&quot;,\&quot;goods_name\&quot;:\&quot;iPhone 6s 32G\&quot;,\&quot;quantity\&quot;:1,\&quot;price\&quot;:608800,\&quot;goods_category\&quot;:\&quot;1237 89\&quot;,\&quot;body\&quot;:\&quot;苹果手机\&quot;}]}&quot;,
+        &quot;attach&quot;: &quot;User-Defined Data&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;fee_type&quot;: &quot;USD&quot;,
+        &quot;total_fee&quot;: 888,
+        &quot;spbill_create_ip&quot;: &quot;8.8.8.8&quot;,
+        &quot;time_start&quot;: &quot;20091225091010&quot;,
+        &quot;time_expire&quot;: &quot;20091225091010&quot;,
+        &quot;goods_tag&quot;: &quot;abcd1234&quot;,
+        &quot;notify_url&quot;: &quot;http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php&quot;,
+        &quot;trade_type&quot;: &quot;JSAPI&quot;,
+        &quot;product_id&quot;: &quot;12235413214070356458058&quot;,
+        &quot;openid&quot;: &quot;oUpF8uMuAJO_M2pxb1Q9zNjWeS6o&quot;,
+        &quot;sub_openid&quot;: &quot;oUpF8uMuAJO_M2pxb1Q9zNjWeS6o&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fpayitil_2Freport_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fpayitil_2Freport_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fpayitil_2Freport_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fpayitil_2Freport_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /payitil/report&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fpayitil_2Freport_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;device_info&quot;: &quot;013467007045764&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;interface_url&quot;: &quot;https://api.mch.wei xin.qq.com/pay/unifiedorder&quot;,
+        &quot;execute_tim&quot;: 1000,
+        &quot;return_code&quot;: &quot;SUCCESS&quot;,
+        &quot;return_msg&quot;: &quot;Signature failure&quot;,
+        &quot;result_code&quot;: &quot;SUCCESS&quot;,
+        &quot;err_code&quot;: &quot;SYSTEMERROR&quot;,
+        &quot;err_code_des&quot;: &quot;System error&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;user_ip&quot;: &quot;8.8.8.8&quot;,
+        &quot;time&quot;: &quot;20091225091010&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /secapi/pay/refund#out_trade_no.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fsecapi_2Fpay_2Frefund_23out_trade_no.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;out_refund_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;total_fee&quot;: 888,
+        &quot;refund_fee&quot;: 100,
+        &quot;refund_fee_type&quot;: &quot;USD&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /secapi/pay/refund#transaction_id.required&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fsecapi_2Fpay_2Frefund_23transaction_id.required_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;,
+        &quot;transaction_id&quot;: &quot;013467007045764&quot;,
+        &quot;out_refund_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;total_fee&quot;: 888,
+        &quot;refund_fee&quot;: 100,
+        &quot;refund_fee_type&quot;: &quot;USD&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsecapi_2Fpay_2Freverse_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /secapi/pay/reverse&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fsecapi_2Fpay_2Freverse_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;transaction_id&quot;: &quot;013467007045764&quot;,
+        &quot;out_trade_no&quot;: &quot;1217752501201407033233368018&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Ftools_2Fshorturl_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Ftools_2Fshorturl_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Ftools_2Fshorturl_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Ftools_2Fshorturl_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /tools/shorturl&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Ftools_2Fshorturl_20POST&quot;].ajax({
+        &quot;appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;mch_id&quot;: &quot;1900000109&quot;,
+        &quot;sub_appid&quot;: &quot;wx8888888888888888&quot;,
+        &quot;sub_mch_id&quot;: &quot;1900000109&quot;,
+        &quot;long_url&quot;: &quot;weixin://wxpay/bizpay url?sign=XXXXX&amp;ap pid=XXXXX&amp;mch_id =XXXXX&amp;product_id =XXXXXX&amp;time_sta mp=XXXXXX&amp;nonce
+ _str=XXXXX&quot;,
+        &quot;nonce_str&quot;: &quot;5K8264ILTKCH16CQ2502SI8ZNMTM67VS&quot;,
+        &quot;sign&quot;: &quot;C380BEC2BFD727A4B6845133519F3AD6&quot;,
+        &quot;sign_type&quot;: &quot;MD5&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
