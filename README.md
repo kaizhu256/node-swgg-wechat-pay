@@ -59,8 +59,8 @@ this zero-dependency package will provide a swagger-client for wechat-pay's web-
 - improve notify_url
 - none
 
-#### changelog 2018.6.19
-- npm publish 2018.6.19
+#### changelog 2018.6.21
+- npm publish 2018.6.21
 - update build
 - none
 
@@ -367,7 +367,7 @@ instruction
         "utility2": "./npm_scripts.sh"
     },
     "swggTags0": "wechat-pay",
-    "version": "2018.6.19"
+    "version": "2018.6.21"
 }
 ```
 

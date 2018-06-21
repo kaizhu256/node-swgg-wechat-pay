@@ -23654,13 +23654,13 @@ local.swaggerErrorTypeDict = {
     // paths.js:79: "Equivalent paths are not allowed."
     semanticPaths2: 'Equivalent paths {{pathList jsonStringify}} are not allowed',
     // paths.js:94: "Path parameters must have unique 'name' + 'in' properties"
-    semanticPaths3: "Path parameter ${parameterDefinition.name jsonStringify} must be unique",
+    semanticPaths3: "Path parameters must have unique 'name' + 'in' properties",
     // paths.js:107: `Path parameter ${parameterDefinition.name} was defined but never used`
     semanticPaths4: 'Path parameter ${parameterDefinition.name} was defined but never used',
     // paths.js:119: "Empty path parameter declarations are not valid"
     semanticPaths5: "Empty path parameter declarations are not valid - {{prefix2 jsonStringify}}",
     // paths.js:131: `Declared path parameter "${parameter}" needs to be defined as a path parameter at either the path or operation level`
-    semanticPaths6: 'Declared path parameter {{name jsonStringify}} needs to be defined as a path parameter {{prefix2 jsonStringify}} at either the path or operation level',
+    semanticPaths6: 'Declared path parameter {{name jsonStringify}} needs to be defined as a path parameter {{prefix2}} at either the path or operation level',
     // paths.js:141: `Path parameter ${parameterDefinition.name} was defined but never used`
     semanticPaths7: 'Path parameter {{prefix0}} was defined but never used',
     // refs.js:37: "Definition was declared but never used in document"
@@ -25486,17 +25486,18 @@ window.swgg.uiEventListenerDict[".onEventUiReload"]({ swggInit: true });\n\
                 // init _methodPath
                 self._methodPath = self._method + ' ' + self._path.replace((/\{.*?\}/g), '{}');
                 self.parameters.forEach(function (schemaP) {
-                    // dereference schemaP
-                    String(schemaP['x-swgg-$ref'] || schemaP.$ref).replace((
-                        /#\/parameters\/(.+?$)/
-                    ), function (match0, match1) {
-                        match0 = match1;
-                        local.objectSetDefault(
-                            schemaP,
-                            local.jsonCopy(swaggerJson.parameters[match0])
-                        );
-                        schemaP.$ref = undefined;
-                    });
+                    // dereference schemaP.$ref
+                    String(schemaP['x-swgg-$ref'] || schemaP.$ref).replace(
+                        (/#\/parameters\/(.+?$)/),
+                        function (match0, match1) {
+                            match0 = match1;
+                            local.objectSetDefault(
+                                schemaP,
+                                local.jsonCopy(swaggerJson.parameters[match0])
+                            );
+                            schemaP.$ref = undefined;
+                        }
+                    );
                     // init _idName.format and _idName.type
                     if (self._schemaName && schemaP.name === self._idName) {
                         schemaP.format = swaggerJson.definitions[self._schemaName]
@@ -27034,17 +27035,6 @@ window.swgg.uiEventListenerDict[".onEventUiReload"]({ swggInit: true });\n\
                     prefix: prefix
                 });
                 pathDict[tmp] = path;
-                // validate semanticPaths3
-                tmp = {};
-                path.replace((/\{.*?\}/g), function (match0) {
-                    test = !tmp[match0];
-                    local.throwSwaggerError(!test && {
-                        errorType: 'semanticPaths3',
-                        name: match0,
-                        prefix: prefix
-                    });
-                    tmp[match0] = true;
-                });
                 // validate semanticPaths5
                 test = path.indexOf('{}') < 0;
                 local.throwSwaggerError(!test && {
@@ -27105,17 +27095,6 @@ window.swgg.uiEventListenerDict[".onEventUiReload"]({ swggInit: true });\n\
                         tmp.path[match0][0] = true;
                     });
                     (operation.parameters || []).forEach(function (schemaP, ii) {
-                        // dereference schemaP
-                        String(schemaP['x-swgg-$ref'] || schemaP.$ref).replace((
-                            /#\/parameters\/(.+?$)/
-                        ), function (match0, match1) {
-                            match0 = match1;
-                            schemaP = local.objectSetDefault(
-                                local.jsonCopy(schemaP),
-                                local.jsonCopy(swaggerJson.parameters[match0])
-                            );
-                            schemaP.$ref = undefined;
-                        });
                         // validate semanticOperations2
                         test = !(tmp.in.body && schemaP.in === 'body');
                         local.throwSwaggerError(!test && {
